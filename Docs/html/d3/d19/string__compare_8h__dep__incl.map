@@ -1,0 +1,24 @@
+<map id="lib/includes/string_compare.h" name="lib/includes/string_compare.h">
+<area shape="rect" id="node3" href="$d2/dfa/aff_8c.html" title="corewar/srcs/aff.c" alt="" coords="5,96,133,123"/>
+<area shape="rect" id="node5" href="$d7/d6c/calcul_8c.html" title="corewar/srcs/calcul.c" alt="" coords="157,96,305,123"/>
+<area shape="rect" id="node7" href="$df/d27/champion_8c.html" title="corewar/srcs/champion.c" alt="" coords="331,96,503,123"/>
+<area shape="rect" id="node9" href="$dd/d97/fork_8c.html" title="corewar/srcs/fork.c" alt="" coords="528,96,663,123"/>
+<area shape="rect" id="node11" href="$d8/de0/ldi_8c.html" title="corewar/srcs/ldi.c" alt="" coords="688,96,816,123"/>
+<area shape="rect" id="node13" href="$d3/d42/live_8c.html" title="corewar/srcs/live.c" alt="" coords="841,96,975,123"/>
+<area shape="rect" id="node15" href="$d2/df4/lldi_8c.html" title="corewar/srcs/lldi.c" alt="" coords="1000,96,1129,123"/>
+<area shape="rect" id="node17" href="$d8/d80/lload_8c.html" title="corewar/srcs/lload.c" alt="" coords="1155,96,1299,123"/>
+<area shape="rect" id="node19" href="$d9/dd4/load_8c.html" title="corewar/srcs/load.c" alt="" coords="1323,96,1463,123"/>
+<area shape="rect" id="node21" href="$d1/de6/corewar_2srcs_2main_8c.html" title="corewar/srcs/main.c" alt="" coords="1487,96,1629,123"/>
+<area shape="rect" id="node23" href="$d0/dd6/operation_8c.html" title="corewar/srcs/operation.c" alt="" coords="1655,96,1825,123"/>
+<area shape="rect" id="node25" href="$d4/dd5/sti_8c.html" title="corewar/srcs/sti.c" alt="" coords="1850,96,1976,123"/>
+<area shape="rect" id="node27" href="$d9/d7e/store_8c.html" title="corewar/srcs/store.c" alt="" coords="2001,96,2145,123"/>
+<area shape="rect" id="node29" href="$dc/d96/the__game_8c.html" title="corewar/srcs/the_game.c" alt="" coords="2170,96,2344,123"/>
+<area shape="rect" id="node31" href="$de/de9/vm_8c.html" title="corewar/srcs/vm.c" alt="" coords="2369,96,2500,123"/>
+<area shape="rect" id="node33" href="$d0/d10/zjump_8c.html" title="corewar/srcs/zjump.c" alt="" coords="2525,96,2673,123"/>
+<area shape="rect" id="node35" href="$d0/db6/gen__list_8c.html" title="asm/srcs/gen_list.c" alt="" coords="2699,96,2836,123"/>
+<area shape="rect" id="node37" href="$db/da1/get__argv_8c.html" title="asm/srcs/get_argv.c" alt="" coords="2861,96,3005,123"/>
+<area shape="rect" id="node39" href="$dc/d7e/label_8c.html" title="asm/srcs/label.c" alt="" coords="3029,96,3149,123"/>
+<area shape="rect" id="node41" href="$d0/d85/process_8c.html" title="asm/srcs/process.c" alt="" coords="3173,96,3312,123"/>
+<area shape="rect" id="node43" href="$d1/d50/write__argvs_8c.html" title="asm/srcs/write_argvs.c" alt="" coords="3336,96,3495,123"/>
+<area shape="rect" id="node45" href="$df/dd9/write__header_8c.html" title="asm/srcs/write_header.c" alt="" coords="3521,96,3689,123"/>
+</map>

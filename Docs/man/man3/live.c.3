@@ -1,0 +1,75 @@
+.TH "corewar/srcs/live.c" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+corewar/srcs/live.c \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include 'op\&.h'\fP
+.br
+\fC#include 'corewar\&.h'\fP
+.br
+\fC#include 'champion\&.h'\fP
+.br
+\fC#include 'string_compare\&.h'\fP
+.br
+\fC#include 'nbr\&.h'\fP
+.br
+\fC#include 'my_fprintf\&.h'\fP
+.br
+\fC#include 'my_malloc\&.h'\fP
+.br
+\fC#include 'gen_list\&.h'\fP
+.br
+\fC#include 'live\&.h'\fP
+.br
+\fC#include 'vm\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "static void \fBreset_live\fP (\fBt_champion\fP *champion, \fBt_corewar\fP *corewar)"
+.br
+.ti -1c
+.RI "int \fBcheck_live\fP (\fBt_corewar\fP *corewar, int *nbr_winner)"
+.br
+.ti -1c
+.RI "static void \fBcheck_cycles\fP (\fBt_champion\fP *champion, int *\fBlive\fP, int *backup_cycles, \fBt_corewar\fP *corewar)"
+.br
+.ti -1c
+.RI "static int \fBis_alive\fP (\fBt_champion\fP *champion, int nb, int *backup_cycles, \fBt_corewar\fP *corewar)"
+.br
+.ti -1c
+.RI "int \fBlive\fP (\fBt_champion\fP *champion, int *backup_cycles, unsigned char **arena, \fBt_corewar\fP *corewar)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "static void check_cycles (\fBt_champion\fP *champion, int *live, int *backup_cycles, \fBt_corewar\fP *corewar)\fC [static]\fP"
+
+.PP
+Definition at line 73 of file live\&.c\&.
+.SS "int check_live (\fBt_corewar\fP *corewar, int *nbr_winner)"
+
+.PP
+Definition at line 44 of file live\&.c\&.
+.SS "static int is_alive (\fBt_champion\fP *champion, intnb, int *backup_cycles, \fBt_corewar\fP *corewar)\fC [static]\fP"
+
+.PP
+Definition at line 101 of file live\&.c\&.
+.SS "int live (\fBt_champion\fP *champion, int *backup_cycles, unsigned char **arena, \fBt_corewar\fP *corewar)"
+
+.PP
+Definition at line 123 of file live\&.c\&.
+.SS "static void reset_live (\fBt_champion\fP *champion, \fBt_corewar\fP *corewar)\fC [static]\fP"
+
+.PP
+Definition at line 23 of file live\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

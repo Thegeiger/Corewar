@@ -1,0 +1,51 @@
+.TH "corewar/includes/live.h" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+corewar/includes/live.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBNO_NUMBER\fP   ('In \\'is_alive\\' : There is no champion with number %i\\n')"
+.br
+.ti -1c
+.RI "#define \fBALREADY_DEAD\fP   ('In \\'is_alive\\' : Player %s says \\'live\\' but was dead\\n')"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBcheck_live\fP (\fBt_corewar\fP *corewar, int *nbr_winner)"
+.br
+.ti -1c
+.RI "int \fBlive\fP (\fBt_champion\fP *champion, int *backup_cycles, unsigned char **arena, \fBt_corewar\fP *corewar)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define ALREADY_DEAD   ('In \\'is_alive\\' : Player %s says \\'live\\' but was dead\\n')"
+
+.PP
+Definition at line 15 of file live\&.h\&.
+.SS "#define NO_NUMBER   ('In \\'is_alive\\' : There is no champion with number %i\\n')"
+
+.PP
+Definition at line 14 of file live\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "int check_live (\fBt_corewar\fP *corewar, int *nbr_winner)"
+
+.PP
+Definition at line 44 of file live\&.c\&.
+.SS "int live (\fBt_champion\fP *champion, int *backup_cycles, unsigned char **arena, \fBt_corewar\fP *corewar)"
+
+.PP
+Definition at line 123 of file live\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

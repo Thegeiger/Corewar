@@ -1,0 +1,70 @@
+.TH "asm/srcs/write_argvs.c" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+asm/srcs/write_argvs.c \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include <unistd\&.h>\fP
+.br
+\fC#include 'op\&.h'\fP
+.br
+\fC#include 'get_next_line\&.h'\fP
+.br
+\fC#include 'my_fprintf\&.h'\fP
+.br
+\fC#include 'my_malloc\&.h'\fP
+.br
+\fC#include 'string_copy\&.h'\fP
+.br
+\fC#include 'nbr\&.h'\fP
+.br
+\fC#include 'string_compare\&.h'\fP
+.br
+\fC#include 'get_argv\&.h'\fP
+.br
+\fC#include 'compile\&.h'\fP
+.br
+\fC#include 'write_argvs\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmy_sub_write_arg\fP (char *str, int *writed, int bin, int cast)"
+.br
+.ti -1c
+.RI "int \fBmy_write_arg\fP (int *writed, int fd_binary, char *str, int cast)"
+.br
+.ti -1c
+.RI "int \fBmy_write_oct_code\fP (char **lexed, \fBop_t\fP *op, int fd_binary, int writed)"
+.br
+.ti -1c
+.RI "int \fBmy_write_args\fP (char **lexed_line, \fBop_t\fP *optodo, int fd_binary)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int my_sub_write_arg (char *str, int *writed, intbin, intcast)"
+
+.PP
+Definition at line 28 of file write_argvs\&.c\&.
+.SS "int my_write_arg (int *writed, intfd_binary, char *str, intcast)"
+
+.PP
+Definition at line 60 of file write_argvs\&.c\&.
+.SS "int my_write_args (char **lexed_line, \fBop_t\fP *optodo, intfd_binary)"
+
+.PP
+Definition at line 118 of file write_argvs\&.c\&.
+.SS "int my_write_oct_code (char **lexed, \fBop_t\fP *op, intfd_binary, intwrited)"
+
+.PP
+Definition at line 84 of file write_argvs\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

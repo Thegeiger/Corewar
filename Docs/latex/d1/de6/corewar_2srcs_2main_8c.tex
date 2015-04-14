@@ -1,0 +1,146 @@
+\hypertarget{corewar_2srcs_2main_8c}{\section{corewar/srcs/main.c File Reference}
+\label{corewar_2srcs_2main_8c}\index{corewar/srcs/main.\-c@{corewar/srcs/main.\-c}}
+}
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}corewar.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}vm.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-compare.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}nbr.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-fprintf.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gen\-\_\-list.\-h\char`\"{}}\\*
+Include dependency graph for main.\-c\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d87/corewar_2srcs_2main_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{corewar_2srcs_2main_8c_ae6a0289aa3ef08f888641aace0087efb}{my\-\_\-champion\-\_\-adress} (\hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar)
+\item 
+static unsigned int \hyperlink{corewar_2srcs_2main_8c_a8a9f71fb99b50e9bfe9dccb70ed95416}{my\-\_\-order\-\_\-champion} (\hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar, \hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion)
+\item 
+static unsigned int \hyperlink{corewar_2srcs_2main_8c_a109d37719a77c88ad242493da1f77910}{my\-\_\-get\-\_\-params} (int argc, char $\ast$$\ast$argv, \hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar)
+\item 
+int \hyperlink{corewar_2srcs_2main_8c_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{corewar_2srcs_2main_8c_a3c04138a5bfe5d72780bb7e82a18e627}{\index{corewar/srcs/main.\-c@{corewar/srcs/main.\-c}!main@{main}}
+\index{main@{main}!corewar/srcs/main.c@{corewar/srcs/main.\-c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}}\label{corewar_2srcs_2main_8c_a3c04138a5bfe5d72780bb7e82a18e627}
+
+
+Definition at line 118 of file main.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/de6/corewar_2srcs_2main_8c_a3c04138a5bfe5d72780bb7e82a18e627_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{corewar_2srcs_2main_8c_ae6a0289aa3ef08f888641aace0087efb}{\index{corewar/srcs/main.\-c@{corewar/srcs/main.\-c}!my\-\_\-champion\-\_\-adress@{my\-\_\-champion\-\_\-adress}}
+\index{my\-\_\-champion\-\_\-adress@{my\-\_\-champion\-\_\-adress}!corewar/srcs/main.c@{corewar/srcs/main.\-c}}
+\subsubsection[{my\-\_\-champion\-\_\-adress}]{\setlength{\rightskip}{0pt plus 5cm}static void my\-\_\-champion\-\_\-adress (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{corewar_2srcs_2main_8c_ae6a0289aa3ef08f888641aace0087efb}
+
+
+Definition at line 25 of file main.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{d1/de6/corewar_2srcs_2main_8c_ae6a0289aa3ef08f888641aace0087efb_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{corewar_2srcs_2main_8c_a109d37719a77c88ad242493da1f77910}{\index{corewar/srcs/main.\-c@{corewar/srcs/main.\-c}!my\-\_\-get\-\_\-params@{my\-\_\-get\-\_\-params}}
+\index{my\-\_\-get\-\_\-params@{my\-\_\-get\-\_\-params}!corewar/srcs/main.c@{corewar/srcs/main.\-c}}
+\subsubsection[{my\-\_\-get\-\_\-params}]{\setlength{\rightskip}{0pt plus 5cm}static unsigned int my\-\_\-get\-\_\-params (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv, }
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{corewar_2srcs_2main_8c_a109d37719a77c88ad242493da1f77910}
+
+
+Definition at line 85 of file main.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/de6/corewar_2srcs_2main_8c_a109d37719a77c88ad242493da1f77910_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{d1/de6/corewar_2srcs_2main_8c_a109d37719a77c88ad242493da1f77910_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{corewar_2srcs_2main_8c_a8a9f71fb99b50e9bfe9dccb70ed95416}{\index{corewar/srcs/main.\-c@{corewar/srcs/main.\-c}!my\-\_\-order\-\_\-champion@{my\-\_\-order\-\_\-champion}}
+\index{my\-\_\-order\-\_\-champion@{my\-\_\-order\-\_\-champion}!corewar/srcs/main.c@{corewar/srcs/main.\-c}}
+\subsubsection[{my\-\_\-order\-\_\-champion}]{\setlength{\rightskip}{0pt plus 5cm}static unsigned int my\-\_\-order\-\_\-champion (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar, }
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{corewar_2srcs_2main_8c_a8a9f71fb99b50e9bfe9dccb70ed95416}
+
+
+Definition at line 50 of file main.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{d1/de6/corewar_2srcs_2main_8c_a8a9f71fb99b50e9bfe9dccb70ed95416_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{d1/de6/corewar_2srcs_2main_8c_a8a9f71fb99b50e9bfe9dccb70ed95416_icgraph}
+\end{center}
+\end{figure}
+
+

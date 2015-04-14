@@ -1,0 +1,44 @@
+.TH "corewar/includes/fork.h" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+corewar/includes/fork.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBPC_ENDIAN_IDX_MOD\fP   ((champion->pc + ((\fBSWAP_ENDIAN\fP(*(int*)tmp)) % \fBIDX_MOD\fP)) % \fBMEM_SIZE\fP)"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBfork\fP (\fBt_champion\fP *champion, unsigned char **arena)"
+.br
+.ti -1c
+.RI "int \fBlfork\fP (\fBt_champion\fP *champion, unsigned char **arena)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define PC_ENDIAN_IDX_MOD   ((champion->pc + ((\fBSWAP_ENDIAN\fP(*(int*)tmp)) % \fBIDX_MOD\fP)) % \fBMEM_SIZE\fP)"
+
+.PP
+Definition at line 14 of file fork\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "int fork (\fBt_champion\fP *champion, unsigned char **arena)"
+
+.PP
+Definition at line 40 of file fork\&.c\&.
+.SS "int lfork (\fBt_champion\fP *champion, unsigned char **arena)"
+
+.PP
+Definition at line 68 of file fork\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

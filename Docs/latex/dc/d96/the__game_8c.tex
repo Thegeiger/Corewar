@@ -1,0 +1,192 @@
+\hypertarget{the__game_8c}{\section{corewar/srcs/the\-\_\-game.c File Reference}
+\label{the__game_8c}\index{corewar/srcs/the\-\_\-game.\-c@{corewar/srcs/the\-\_\-game.\-c}}
+}
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}op.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}corewar.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}champion.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-compare.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}nbr.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-fprintf.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gen\-\_\-list.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}vm.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}aff.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}calcul.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}fork.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ldi.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}live.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}lldi.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}lload.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}load.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}operation.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}sti.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}store.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}zjump.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}the\-\_\-game.\-h\char`\"{}}\\*
+Include dependency graph for the\-\_\-game.\-c\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d14/the__game_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{the__game_8c_ac6cce84ddf7235f576b76f4a72f18a39}{your\-\_\-turn} (int $\ast$backup\-\_\-cycles, unsigned char $\ast$$\ast$arena, \hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar)
+\item 
+static void \hyperlink{the__game_8c_ac21b646056e2e91d14bb089bf6ab7f11}{dump\-\_\-it} (\hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar, unsigned char $\ast$$\ast$arena)
+\item 
+int \hyperlink{the__game_8c_a630a5667491c1894d4e45c56e79dfc75}{lets\-\_\-play} (\hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar, int cycles, int backup\-\_\-cycles, unsigned char $\ast$$\ast$arena)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static int($\ast$ \hyperlink{the__game_8c_a17dc21cc1a173353340481b5c6d6897b}{g\-\_\-fct} \mbox{[}$\,$\mbox{]})(\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$, unsigned char $\ast$$\ast$)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{the__game_8c_ac21b646056e2e91d14bb089bf6ab7f11}{\index{the\-\_\-game.\-c@{the\-\_\-game.\-c}!dump\-\_\-it@{dump\-\_\-it}}
+\index{dump\-\_\-it@{dump\-\_\-it}!the_game.c@{the\-\_\-game.\-c}}
+\subsubsection[{dump\-\_\-it}]{\setlength{\rightskip}{0pt plus 5cm}static void dump\-\_\-it (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar, }
+\item[{unsigned char $\ast$$\ast$}]{arena}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{the__game_8c_ac21b646056e2e91d14bb089bf6ab7f11}
+
+
+Definition at line 93 of file the\-\_\-game.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{dc/d96/the__game_8c_ac21b646056e2e91d14bb089bf6ab7f11_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{dc/d96/the__game_8c_ac21b646056e2e91d14bb089bf6ab7f11_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{the__game_8c_a630a5667491c1894d4e45c56e79dfc75}{\index{the\-\_\-game.\-c@{the\-\_\-game.\-c}!lets\-\_\-play@{lets\-\_\-play}}
+\index{lets\-\_\-play@{lets\-\_\-play}!the_game.c@{the\-\_\-game.\-c}}
+\subsubsection[{lets\-\_\-play}]{\setlength{\rightskip}{0pt plus 5cm}int lets\-\_\-play (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar, }
+\item[{int}]{cycles, }
+\item[{int}]{backup\-\_\-cycles, }
+\item[{unsigned char $\ast$$\ast$}]{arena}
+\end{DoxyParamCaption}
+)}}\label{the__game_8c_a630a5667491c1894d4e45c56e79dfc75}
+
+
+Definition at line 111 of file the\-\_\-game.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{dc/d96/the__game_8c_a630a5667491c1894d4e45c56e79dfc75_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=222pt]{dc/d96/the__game_8c_a630a5667491c1894d4e45c56e79dfc75_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{the__game_8c_ac6cce84ddf7235f576b76f4a72f18a39}{\index{the\-\_\-game.\-c@{the\-\_\-game.\-c}!your\-\_\-turn@{your\-\_\-turn}}
+\index{your\-\_\-turn@{your\-\_\-turn}!the_game.c@{the\-\_\-game.\-c}}
+\subsubsection[{your\-\_\-turn}]{\setlength{\rightskip}{0pt plus 5cm}static int your\-\_\-turn (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{backup\-\_\-cycles, }
+\item[{unsigned char $\ast$$\ast$}]{arena, }
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{the__game_8c_ac6cce84ddf7235f576b76f4a72f18a39}
+
+
+Definition at line 55 of file the\-\_\-game.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{dc/d96/the__game_8c_ac6cce84ddf7235f576b76f4a72f18a39_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=230pt]{dc/d96/the__game_8c_ac6cce84ddf7235f576b76f4a72f18a39_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Variable Documentation}
+\hypertarget{the__game_8c_a17dc21cc1a173353340481b5c6d6897b}{\index{the\-\_\-game.\-c@{the\-\_\-game.\-c}!g\-\_\-fct@{g\-\_\-fct}}
+\index{g\-\_\-fct@{g\-\_\-fct}!the_game.c@{the\-\_\-game.\-c}}
+\subsubsection[{g\-\_\-fct}]{\setlength{\rightskip}{0pt plus 5cm}int($\ast$ g\-\_\-fct\mbox{[}$\,$\mbox{]})({\bf t\-\_\-champion} $\ast$, unsigned char $\ast$$\ast$)\hspace{0.3cm}{\ttfamily [static]}}}\label{the__game_8c_a17dc21cc1a173353340481b5c6d6897b}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=
+\{
+  &\hyperlink{load_8h_ae31a2dfbee457138fc2621cce28bc341}{load},
+  &\hyperlink{store_8h_ab0ed26e3b2f02f0066d41edeb8607f7a}{store},
+  &\hyperlink{calcul_8h_ae8f59e2c498e8031ed45abba5522fdf1}{addition},
+  &\hyperlink{calcul_8h_af5afa74e01410eebc204f7edd72c4310}{soustraction},
+  &\hyperlink{operation_8h_a858ed6428dc88604803b93dabf53a183}{my\_and},
+  &\hyperlink{operation_8h_a16208ed55d81c38e6dea6ac9a886574e}{my\_or},
+  &\hyperlink{operation_8h_acb4a6fa30f8c187dd95103c33d7a7b32}{my\_xor},
+  &\hyperlink{zjump_8h_a818967ecc0b49ad5fc4405997f6b44b6}{zjump},
+  &\hyperlink{ldi_8h_a682ae166413c5ae439ec44016af6d676}{ldi},
+  &\hyperlink{sti_8h_a1d7a1e08f68df8b28b8f503b3f8e9c33}{sti},
+  &\hyperlink{fork_8h_ab8fa2441be7734fc18c871d6b943751a}{fork},
+  &\hyperlink{lload_8h_a531fd44fd1ebc315495f3e1bd244da4b}{lload},
+  &\hyperlink{lldi_8h_ae5149ee0c556469c7da3abadf82293e3}{lldi},
+  &\hyperlink{fork_8h_a231506fa26b9397616fd23cd511567a8}{lfork},
+  &\hyperlink{aff_8h_a911f1faf72dde2071375fac5f99f9e13}{my\_aff}
+\}
+\end{DoxyCode}
+
+
+Definition at line 36 of file the\-\_\-game.\-c.
+

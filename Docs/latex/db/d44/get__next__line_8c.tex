@@ -1,0 +1,141 @@
+\hypertarget{get__next__line_8c}{\section{lib/srcs/get\-\_\-next\-\_\-line.c File Reference}
+\label{get__next__line_8c}\index{lib/srcs/get\-\_\-next\-\_\-line.\-c@{lib/srcs/get\-\_\-next\-\_\-line.\-c}}
+}
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$sys/types.\-h$>$}\\*
+{\ttfamily \#include $<$sys/stat.\-h$>$}\\*
+{\ttfamily \#include $<$fcntl.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}get\-\_\-next\-\_\-line.\-h\char`\"{}}\\*
+Include dependency graph for get\-\_\-next\-\_\-line.\-c\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/dce/get__next__line_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{get__next__line_8c_a34fbf48fc1b07ecb5eeeb4d91600e0b8}{my\-\_\-put\-\_\-in\-\_\-list} (\hyperlink{get__next__line_8h_ab8e0133df01768fff96c5f4e036f546c}{t\-\_\-char} $\ast$$\ast$list, const char character)
+\item 
+static int \hyperlink{get__next__line_8c_ac4f002f24c00fff4d7f42202a78cf426}{my\-\_\-list\-\_\-size} (\hyperlink{get__next__line_8h_ab8e0133df01768fff96c5f4e036f546c}{t\-\_\-char} $\ast$list)
+\item 
+static char $\ast$ \hyperlink{get__next__line_8c_a3f5de5588c736e026ce0b10f64b7beb5}{my\-\_\-convlist} (\hyperlink{get__next__line_8h_ab8e0133df01768fff96c5f4e036f546c}{t\-\_\-char} $\ast$list)
+\item 
+char $\ast$ \hyperlink{get__next__line_8c_aa36259f17fd04d9decba71955aedeb45}{get\-\_\-next\-\_\-line} (const int fd)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{get__next__line_8c_aa36259f17fd04d9decba71955aedeb45}{\index{get\-\_\-next\-\_\-line.\-c@{get\-\_\-next\-\_\-line.\-c}!get\-\_\-next\-\_\-line@{get\-\_\-next\-\_\-line}}
+\index{get\-\_\-next\-\_\-line@{get\-\_\-next\-\_\-line}!get_next_line.c@{get\-\_\-next\-\_\-line.\-c}}
+\subsubsection[{get\-\_\-next\-\_\-line}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ get\-\_\-next\-\_\-line (
+\begin{DoxyParamCaption}
+\item[{const int}]{fd}
+\end{DoxyParamCaption}
+)}}\label{get__next__line_8c_aa36259f17fd04d9decba71955aedeb45}
+
+
+Definition at line 71 of file get\-\_\-next\-\_\-line.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d44/get__next__line_8c_aa36259f17fd04d9decba71955aedeb45_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/d44/get__next__line_8c_aa36259f17fd04d9decba71955aedeb45_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{get__next__line_8c_a3f5de5588c736e026ce0b10f64b7beb5}{\index{get\-\_\-next\-\_\-line.\-c@{get\-\_\-next\-\_\-line.\-c}!my\-\_\-convlist@{my\-\_\-convlist}}
+\index{my\-\_\-convlist@{my\-\_\-convlist}!get_next_line.c@{get\-\_\-next\-\_\-line.\-c}}
+\subsubsection[{my\-\_\-convlist}]{\setlength{\rightskip}{0pt plus 5cm}static char$\ast$ my\-\_\-convlist (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-char} $\ast$}]{list}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{get__next__line_8c_a3f5de5588c736e026ce0b10f64b7beb5}
+
+
+Definition at line 46 of file get\-\_\-next\-\_\-line.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{db/d44/get__next__line_8c_a3f5de5588c736e026ce0b10f64b7beb5_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{db/d44/get__next__line_8c_a3f5de5588c736e026ce0b10f64b7beb5_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{get__next__line_8c_ac4f002f24c00fff4d7f42202a78cf426}{\index{get\-\_\-next\-\_\-line.\-c@{get\-\_\-next\-\_\-line.\-c}!my\-\_\-list\-\_\-size@{my\-\_\-list\-\_\-size}}
+\index{my\-\_\-list\-\_\-size@{my\-\_\-list\-\_\-size}!get_next_line.c@{get\-\_\-next\-\_\-line.\-c}}
+\subsubsection[{my\-\_\-list\-\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}static int my\-\_\-list\-\_\-size (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-char} $\ast$}]{list}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{get__next__line_8c_ac4f002f24c00fff4d7f42202a78cf426}
+
+
+Definition at line 31 of file get\-\_\-next\-\_\-line.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{db/d44/get__next__line_8c_ac4f002f24c00fff4d7f42202a78cf426_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{get__next__line_8c_a34fbf48fc1b07ecb5eeeb4d91600e0b8}{\index{get\-\_\-next\-\_\-line.\-c@{get\-\_\-next\-\_\-line.\-c}!my\-\_\-put\-\_\-in\-\_\-list@{my\-\_\-put\-\_\-in\-\_\-list}}
+\index{my\-\_\-put\-\_\-in\-\_\-list@{my\-\_\-put\-\_\-in\-\_\-list}!get_next_line.c@{get\-\_\-next\-\_\-line.\-c}}
+\subsubsection[{my\-\_\-put\-\_\-in\-\_\-list}]{\setlength{\rightskip}{0pt plus 5cm}static int my\-\_\-put\-\_\-in\-\_\-list (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-char} $\ast$$\ast$}]{list, }
+\item[{const char}]{character}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{get__next__line_8c_a34fbf48fc1b07ecb5eeeb4d91600e0b8}
+
+
+Definition at line 18 of file get\-\_\-next\-\_\-line.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{db/d44/get__next__line_8c_a34fbf48fc1b07ecb5eeeb4d91600e0b8_icgraph}
+\end{center}
+\end{figure}
+
+

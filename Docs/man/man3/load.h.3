@@ -1,0 +1,44 @@
+.TH "corewar/includes/load.h" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+corewar/includes/load.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBREG_PC_IND_SIZE\fP   (champion->reg[(*arena)[(champion->pc + \fBIND_SIZE\fP + 2) % \fBMEM_SIZE\fP]])"
+.br
+.ti -1c
+.RI "#define \fBREG_PC_DIR_SIZE\fP   (champion->reg[(*arena)[(champion->pc + \fBDIR_SIZE\fP) % \fBMEM_SIZE\fP]])"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBload\fP (\fBt_champion\fP *champion, unsigned char **arena)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define REG_PC_DIR_SIZE   (champion->reg[(*arena)[(champion->pc + \fBDIR_SIZE\fP) % \fBMEM_SIZE\fP]])"
+
+.PP
+Definition at line 15 of file load\&.h\&.
+.SS "#define REG_PC_IND_SIZE   (champion->reg[(*arena)[(champion->pc + \fBIND_SIZE\fP + 2) % \fBMEM_SIZE\fP]])"
+
+.PP
+Definition at line 14 of file load\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "int load (\fBt_champion\fP *champion, unsigned char **arena)"
+
+.PP
+Definition at line 49 of file load\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

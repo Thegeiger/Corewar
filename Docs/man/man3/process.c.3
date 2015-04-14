@@ -1,0 +1,66 @@
+.TH "asm/srcs/process.c" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+asm/srcs/process.c \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <unistd\&.h>\fP
+.br
+\fC#include <fcntl\&.h>\fP
+.br
+\fC#include <sys/stat\&.h>\fP
+.br
+\fC#include 'op\&.h'\fP
+.br
+\fC#include 'list_lab_in\&.h'\fP
+.br
+\fC#include 'get_argv\&.h'\fP
+.br
+\fC#include 'compile\&.h'\fP
+.br
+\fC#include 'my_fprintf\&.h'\fP
+.br
+\fC#include 'string_compare\&.h'\fP
+.br
+\fC#include 'my_malloc\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBprocess_line\fP (char **lexed_line, int fd_binary, int *fileoffset, \fBt_lateinfo\fP *info)"
+.br
+.ti -1c
+.RI "int \fBproces_file\fP (char *str)"
+.br
+.ti -1c
+.RI "int \fBdirsize\fP (\fBop_t\fP *op, int i)"
+.br
+.ti -1c
+.RI "\fBt_pos_info\fP \fBmy_fuse\fP (int pos, int instruc)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int dirsize (\fBop_t\fP *op, inti)"
+
+.PP
+Definition at line 100 of file process\&.c\&.
+.SS "\fBt_pos_info\fP my_fuse (intpos, intinstruc)"
+
+.PP
+Definition at line 114 of file process\&.c\&.
+.SS "int proces_file (char *str)"
+
+.PP
+Definition at line 67 of file process\&.c\&.
+.SS "int process_line (char **lexed_line, intfd_binary, int *fileoffset, \fBt_lateinfo\fP *info)"
+
+.PP
+Definition at line 30 of file process\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

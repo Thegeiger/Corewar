@@ -1,0 +1,139 @@
+\hypertarget{champion_8c}{\section{corewar/srcs/champion.c File Reference}
+\label{champion_8c}\index{corewar/srcs/champion.\-c@{corewar/srcs/champion.\-c}}
+}
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$sys/types.\-h$>$}\\*
+{\ttfamily \#include $<$sys/stat.\-h$>$}\\*
+{\ttfamily \#include $<$fcntl.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}champion.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-compare.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}nbr.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-fprintf.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gen\-\_\-list.\-h\char`\"{}}\\*
+Include dependency graph for champion.\-c\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/dbd/champion_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static unsigned int \hyperlink{champion_8c_a3ff6e48e3444c7cfa78d3d38928486aa}{my\-\_\-champion\-\_\-file} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, const char $\ast$file)
+\item 
+static int \hyperlink{champion_8c_a41cb68389d44dc64a7c5e102a52c3da1}{my\-\_\-champion\-\_\-parameters} (int argc, char $\ast$$\ast$argv, int $\ast$i, \hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion)
+\item 
+int \hyperlink{champion_8c_a88f8f96480ee1079af9eb08d31de58ca}{my\-\_\-champion} (int argc, char $\ast$$\ast$argv, int $\ast$i, \hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{champion_8c_a88f8f96480ee1079af9eb08d31de58ca}{\index{champion.\-c@{champion.\-c}!my\-\_\-champion@{my\-\_\-champion}}
+\index{my\-\_\-champion@{my\-\_\-champion}!champion.c@{champion.\-c}}
+\subsubsection[{my\-\_\-champion}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-champion (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv, }
+\item[{int $\ast$}]{i, }
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion}
+\end{DoxyParamCaption}
+)}}\label{champion_8c_a88f8f96480ee1079af9eb08d31de58ca}
+
+
+Definition at line 103 of file champion.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/d27/champion_8c_a88f8f96480ee1079af9eb08d31de58ca_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{df/d27/champion_8c_a88f8f96480ee1079af9eb08d31de58ca_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{champion_8c_a3ff6e48e3444c7cfa78d3d38928486aa}{\index{champion.\-c@{champion.\-c}!my\-\_\-champion\-\_\-file@{my\-\_\-champion\-\_\-file}}
+\index{my\-\_\-champion\-\_\-file@{my\-\_\-champion\-\_\-file}!champion.c@{champion.\-c}}
+\subsubsection[{my\-\_\-champion\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}static unsigned int my\-\_\-champion\-\_\-file (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{const char $\ast$}]{file}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{champion_8c_a3ff6e48e3444c7cfa78d3d38928486aa}
+
+
+Definition at line 29 of file champion.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{df/d27/champion_8c_a3ff6e48e3444c7cfa78d3d38928486aa_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{df/d27/champion_8c_a3ff6e48e3444c7cfa78d3d38928486aa_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{champion_8c_a41cb68389d44dc64a7c5e102a52c3da1}{\index{champion.\-c@{champion.\-c}!my\-\_\-champion\-\_\-parameters@{my\-\_\-champion\-\_\-parameters}}
+\index{my\-\_\-champion\-\_\-parameters@{my\-\_\-champion\-\_\-parameters}!champion.c@{champion.\-c}}
+\subsubsection[{my\-\_\-champion\-\_\-parameters}]{\setlength{\rightskip}{0pt plus 5cm}static int my\-\_\-champion\-\_\-parameters (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv, }
+\item[{int $\ast$}]{i, }
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{champion_8c_a41cb68389d44dc64a7c5e102a52c3da1}
+
+
+Definition at line 66 of file champion.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{df/d27/champion_8c_a41cb68389d44dc64a7c5e102a52c3da1_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{df/d27/champion_8c_a41cb68389d44dc64a7c5e102a52c3da1_icgraph}
+\end{center}
+\end{figure}
+
+

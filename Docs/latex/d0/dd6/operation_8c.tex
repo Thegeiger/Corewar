@@ -1,0 +1,172 @@
+\hypertarget{operation_8c}{\section{corewar/srcs/operation.c File Reference}
+\label{operation_8c}\index{corewar/srcs/operation.\-c@{corewar/srcs/operation.\-c}}
+}
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}op.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}corewar.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}champion.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-compare.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}nbr.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-fprintf.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gen\-\_\-list.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}vm.\-h\char`\"{}}\\*
+Include dependency graph for operation.\-c\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/de7/operation_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{operation_8c_a057f80b9fa055943632938701520c699}{set\-\_\-indirect} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, int $\ast$nb, unsigned char $\ast$$\ast$arena)
+\item 
+static void \hyperlink{operation_8c_a2f59412da985932a29505501e05227f3}{get\-\_\-nb} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, unsigned char $\ast$$\ast$arena, int $\ast$nb, char codage)
+\item 
+int \hyperlink{operation_8c_a858ed6428dc88604803b93dabf53a183}{my\-\_\-and} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, unsigned char $\ast$$\ast$arena)
+\item 
+int \hyperlink{operation_8c_a16208ed55d81c38e6dea6ac9a886574e}{my\-\_\-or} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, unsigned char $\ast$$\ast$arena)
+\item 
+int \hyperlink{operation_8c_acb4a6fa30f8c187dd95103c33d7a7b32}{my\-\_\-xor} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, unsigned char $\ast$$\ast$arena)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{operation_8c_a2f59412da985932a29505501e05227f3}{\index{operation.\-c@{operation.\-c}!get\-\_\-nb@{get\-\_\-nb}}
+\index{get\-\_\-nb@{get\-\_\-nb}!operation.c@{operation.\-c}}
+\subsubsection[{get\-\_\-nb}]{\setlength{\rightskip}{0pt plus 5cm}static void get\-\_\-nb (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{unsigned char $\ast$$\ast$}]{arena, }
+\item[{int $\ast$}]{nb, }
+\item[{char}]{codage}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{operation_8c_a2f59412da985932a29505501e05227f3}
+
+
+Definition at line 42 of file operation.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{d0/dd6/operation_8c_a2f59412da985932a29505501e05227f3_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{d0/dd6/operation_8c_a2f59412da985932a29505501e05227f3_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{operation_8c_a858ed6428dc88604803b93dabf53a183}{\index{operation.\-c@{operation.\-c}!my\-\_\-and@{my\-\_\-and}}
+\index{my\-\_\-and@{my\-\_\-and}!operation.c@{operation.\-c}}
+\subsubsection[{my\-\_\-and}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-and (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{unsigned char $\ast$$\ast$}]{arena}
+\end{DoxyParamCaption}
+)}}\label{operation_8c_a858ed6428dc88604803b93dabf53a183}
+
+
+Definition at line 67 of file operation.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{d0/dd6/operation_8c_a858ed6428dc88604803b93dabf53a183_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{operation_8c_a16208ed55d81c38e6dea6ac9a886574e}{\index{operation.\-c@{operation.\-c}!my\-\_\-or@{my\-\_\-or}}
+\index{my\-\_\-or@{my\-\_\-or}!operation.c@{operation.\-c}}
+\subsubsection[{my\-\_\-or}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-or (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{unsigned char $\ast$$\ast$}]{arena}
+\end{DoxyParamCaption}
+)}}\label{operation_8c_a16208ed55d81c38e6dea6ac9a886574e}
+
+
+Definition at line 89 of file operation.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{d0/dd6/operation_8c_a16208ed55d81c38e6dea6ac9a886574e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{operation_8c_acb4a6fa30f8c187dd95103c33d7a7b32}{\index{operation.\-c@{operation.\-c}!my\-\_\-xor@{my\-\_\-xor}}
+\index{my\-\_\-xor@{my\-\_\-xor}!operation.c@{operation.\-c}}
+\subsubsection[{my\-\_\-xor}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-xor (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{unsigned char $\ast$$\ast$}]{arena}
+\end{DoxyParamCaption}
+)}}\label{operation_8c_acb4a6fa30f8c187dd95103c33d7a7b32}
+
+
+Definition at line 111 of file operation.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{d0/dd6/operation_8c_acb4a6fa30f8c187dd95103c33d7a7b32_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{operation_8c_a057f80b9fa055943632938701520c699}{\index{operation.\-c@{operation.\-c}!set\-\_\-indirect@{set\-\_\-indirect}}
+\index{set\-\_\-indirect@{set\-\_\-indirect}!operation.c@{operation.\-c}}
+\subsubsection[{set\-\_\-indirect}]{\setlength{\rightskip}{0pt plus 5cm}static void set\-\_\-indirect (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{int $\ast$}]{nb, }
+\item[{unsigned char $\ast$$\ast$}]{arena}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{operation_8c_a057f80b9fa055943632938701520c699}
+
+
+Definition at line 22 of file operation.\-c.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{d0/dd6/operation_8c_a057f80b9fa055943632938701520c699_icgraph}
+\end{center}
+\end{figure}
+
+

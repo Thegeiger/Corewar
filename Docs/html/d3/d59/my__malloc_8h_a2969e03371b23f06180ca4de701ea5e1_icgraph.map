@@ -1,0 +1,14 @@
+<map id="my_malloc" name="my_malloc">
+<area shape="rect" id="node3" href="$dc/d7e/label_8c.html#a68e75f6dc19bf1ad207e4ede39a78a91" title="get_label_def" alt="" coords="155,5,258,32"/>
+<area shape="rect" id="node5" href="$dc/d7e/label_8c.html#ad53c1fbf1e76c5dd094c957427c0995b" title="late_ext" alt="" coords="172,56,241,83"/>
+<area shape="rect" id="node7" href="$d8/d33/lexer_8c.html#a5b06789e7faa2a3d6702a45ea299d028" title="my_add_all" alt="" coords="161,107,253,133"/>
+<area shape="rect" id="node9" href="$d8/d33/lexer_8c.html#a9d987a70c88ab33366a6178db448c456" title="all_in_tab_base" alt="" coords="149,157,264,184"/>
+<area shape="rect" id="node11" href="$df/dd9/write__header_8c.html#a225b6690cd240c078bc78aee420e3133" title="put_in_be" alt="" coords="167,208,246,235"/>
+<area shape="rect" id="node13" href="$df/d27/champion_8c.html#a3ff6e48e3444c7cfa78d3d38928486aa" title="my_champion_file" alt="" coords="142,259,271,285"/>
+<area shape="rect" id="node15" href="$dd/d97/fork_8c.html#ab8fa2441be7734fc18c871d6b943751a" title="fork" alt="" coords="185,309,229,336"/>
+<area shape="rect" id="node17" href="$dd/d97/fork_8c.html#a231506fa26b9397616fd23cd511567a8" title="lfork" alt="" coords="183,360,230,387"/>
+<area shape="rect" id="node19" href="$d1/de6/corewar_2srcs_2main_8c.html#a109d37719a77c88ad242493da1f77910" title="my_get_params" alt="" coords="147,411,266,437"/>
+<area shape="rect" id="node21" href="$de/de9/vm_8c.html#a49f8141878fc35893dfb4a6d98222220" title="set_arena" alt="" coords="165,461,248,488"/>
+<area shape="rect" id="node23" href="$d1/d03/string__copy_8c.html#ac70bb366eddf8855c00d73a6ae753ad9" title="my_strcat" alt="" coords="167,512,246,539"/>
+<area shape="rect" id="node25" href="$d1/d03/string__copy_8c.html#a56472467e6fd3988699ea8fb7b4866ee" title="my_strncat" alt="" coords="163,563,250,589"/>
+</map>

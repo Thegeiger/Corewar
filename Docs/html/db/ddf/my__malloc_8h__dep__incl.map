@@ -1,0 +1,28 @@
+<map id="lib/includes/my_malloc.h" name="lib/includes/my_malloc.h">
+<area shape="rect" id="node3" href="$d2/dfa/aff_8c.html" title="corewar/srcs/aff.c" alt="" coords="5,88,133,115"/>
+<area shape="rect" id="node5" href="$d7/d6c/calcul_8c.html" title="corewar/srcs/calcul.c" alt="" coords="157,88,305,115"/>
+<area shape="rect" id="node7" href="$df/d27/champion_8c.html" title="corewar/srcs/champion.c" alt="" coords="331,88,503,115"/>
+<area shape="rect" id="node9" href="$dd/d97/fork_8c.html" title="corewar/srcs/fork.c" alt="" coords="528,88,663,115"/>
+<area shape="rect" id="node11" href="$d8/de0/ldi_8c.html" title="corewar/srcs/ldi.c" alt="" coords="688,88,816,115"/>
+<area shape="rect" id="node13" href="$d3/d42/live_8c.html" title="corewar/srcs/live.c" alt="" coords="841,88,975,115"/>
+<area shape="rect" id="node15" href="$d2/df4/lldi_8c.html" title="corewar/srcs/lldi.c" alt="" coords="1000,88,1129,115"/>
+<area shape="rect" id="node17" href="$d8/d80/lload_8c.html" title="corewar/srcs/lload.c" alt="" coords="1155,88,1299,115"/>
+<area shape="rect" id="node19" href="$d9/dd4/load_8c.html" title="corewar/srcs/load.c" alt="" coords="1323,88,1463,115"/>
+<area shape="rect" id="node21" href="$d1/de6/corewar_2srcs_2main_8c.html" title="corewar/srcs/main.c" alt="" coords="1487,88,1629,115"/>
+<area shape="rect" id="node23" href="$d0/dd6/operation_8c.html" title="corewar/srcs/operation.c" alt="" coords="1655,88,1825,115"/>
+<area shape="rect" id="node25" href="$d4/dd5/sti_8c.html" title="corewar/srcs/sti.c" alt="" coords="1850,88,1976,115"/>
+<area shape="rect" id="node27" href="$d9/d7e/store_8c.html" title="corewar/srcs/store.c" alt="" coords="2001,88,2145,115"/>
+<area shape="rect" id="node29" href="$dc/d96/the__game_8c.html" title="corewar/srcs/the_game.c" alt="" coords="2170,88,2344,115"/>
+<area shape="rect" id="node31" href="$de/de9/vm_8c.html" title="corewar/srcs/vm.c" alt="" coords="2369,88,2500,115"/>
+<area shape="rect" id="node33" href="$d0/d10/zjump_8c.html" title="corewar/srcs/zjump.c" alt="" coords="2525,88,2673,115"/>
+<area shape="rect" id="node35" href="$d1/d21/compil_8c.html" title="asm/srcs/compil.c" alt="" coords="2699,88,2828,115"/>
+<area shape="rect" id="node37" href="$dc/d7e/label_8c.html" title="asm/srcs/label.c" alt="" coords="2853,88,2973,115"/>
+<area shape="rect" id="node39" href="$d8/d33/lexer_8c.html" title="asm/srcs/lexer.c" alt="" coords="2998,88,3119,115"/>
+<area shape="rect" id="node41" href="$d7/d13/asm_2srcs_2main_8c.html" title="asm/srcs/main.c" alt="" coords="3144,88,3264,115"/>
+<area shape="rect" id="node43" href="$d0/d85/process_8c.html" title="asm/srcs/process.c" alt="" coords="3288,88,3427,115"/>
+<area shape="rect" id="node45" href="$d1/d50/write__argvs_8c.html" title="asm/srcs/write_argvs.c" alt="" coords="3451,88,3609,115"/>
+<area shape="rect" id="node47" href="$df/dd9/write__header_8c.html" title="asm/srcs/write_header.c" alt="" coords="3635,88,3804,115"/>
+<area shape="rect" id="node49" href="$db/dea/malloc__gen__list_8c.html" title="lib/srcs/malloc_gen\l_list.c" alt="" coords="3829,81,3968,122"/>
+<area shape="rect" id="node51" href="$d0/d7c/my__malloc_8c.html" title="lib/srcs/my_malloc.c" alt="" coords="3993,88,4135,115"/>
+<area shape="rect" id="node53" href="$d1/d03/string__copy_8c.html" title="lib/srcs/string_copy.c" alt="" coords="4160,88,4307,115"/>
+</map>

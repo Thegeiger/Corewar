@@ -1,0 +1,167 @@
+\hypertarget{my__malloc_8h}{\section{lib/includes/my\-\_\-malloc.h File Reference}
+\label{my__malloc_8h}\index{lib/includes/my\-\_\-malloc.\-h@{lib/includes/my\-\_\-malloc.\-h}}
+}
+This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{db/ddf/my__malloc_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structs__glist}{s\-\_\-glist}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structs__glist}{s\-\_\-glist} \hyperlink{my__malloc_8h_abf4de9540ebf53a5ae570cdbf226dab7}{t\-\_\-glist}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{my__malloc_8h_abf4de9540ebf53a5ae570cdbf226dab7}{t\-\_\-glist} $\ast$ \hyperlink{my__malloc_8h_af7ba749bd555c6f7eba7f09ca11100a2}{new\-\_\-glist} (\hyperlink{my__malloc_8h_abf4de9540ebf53a5ae570cdbf226dab7}{t\-\_\-glist} $\ast$old, void $\ast$data)
+\item 
+\hyperlink{my__malloc_8h_abf4de9540ebf53a5ae570cdbf226dab7}{t\-\_\-glist} $\ast$ \hyperlink{my__malloc_8h_a3c49a75dfb5de55efb8598a68ea4c27e}{add\-\_\-glist\-\_\-start} (\hyperlink{my__malloc_8h_abf4de9540ebf53a5ae570cdbf226dab7}{t\-\_\-glist} $\ast$s, void $\ast$data)
+\item 
+void \hyperlink{my__malloc_8h_acf125f56f7ae6d521ea46a660e3624e0}{free\-\_\-glist} (\hyperlink{my__malloc_8h_abf4de9540ebf53a5ae570cdbf226dab7}{t\-\_\-glist} $\ast$s)
+\item 
+void $\ast$ \hyperlink{my__malloc_8h_a2969e03371b23f06180ca4de701ea5e1}{my\-\_\-malloc} (const unsigned int size)
+\item 
+void \hyperlink{my__malloc_8h_af900384530aba4aeb93f8edbe24f31dd}{my\-\_\-free} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{my__malloc_8h_abf4de9540ebf53a5ae570cdbf226dab7}{\index{my\-\_\-malloc.\-h@{my\-\_\-malloc.\-h}!t\-\_\-glist@{t\-\_\-glist}}
+\index{t\-\_\-glist@{t\-\_\-glist}!my_malloc.h@{my\-\_\-malloc.\-h}}
+\subsubsection[{t\-\_\-glist}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf s\-\_\-glist} {\bf t\-\_\-glist}}}\label{my__malloc_8h_abf4de9540ebf53a5ae570cdbf226dab7}
+
+
+Definition at line 14 of file my\-\_\-malloc.\-h.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{my__malloc_8h_a3c49a75dfb5de55efb8598a68ea4c27e}{\index{my\-\_\-malloc.\-h@{my\-\_\-malloc.\-h}!add\-\_\-glist\-\_\-start@{add\-\_\-glist\-\_\-start}}
+\index{add\-\_\-glist\-\_\-start@{add\-\_\-glist\-\_\-start}!my_malloc.h@{my\-\_\-malloc.\-h}}
+\subsubsection[{add\-\_\-glist\-\_\-start}]{\setlength{\rightskip}{0pt plus 5cm}{\bf t\-\_\-glist}$\ast$ add\-\_\-glist\-\_\-start (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-glist} $\ast$}]{s, }
+\item[{void $\ast$}]{data}
+\end{DoxyParamCaption}
+)}}\label{my__malloc_8h_a3c49a75dfb5de55efb8598a68ea4c27e}
+\hypertarget{my__malloc_8h_acf125f56f7ae6d521ea46a660e3624e0}{\index{my\-\_\-malloc.\-h@{my\-\_\-malloc.\-h}!free\-\_\-glist@{free\-\_\-glist}}
+\index{free\-\_\-glist@{free\-\_\-glist}!my_malloc.h@{my\-\_\-malloc.\-h}}
+\subsubsection[{free\-\_\-glist}]{\setlength{\rightskip}{0pt plus 5cm}void free\-\_\-glist (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-glist} $\ast$}]{s}
+\end{DoxyParamCaption}
+)}}\label{my__malloc_8h_acf125f56f7ae6d521ea46a660e3624e0}
+
+
+Definition at line 34 of file malloc\-\_\-gen\-\_\-list.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{d3/d59/my__malloc_8h_acf125f56f7ae6d521ea46a660e3624e0_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{my__malloc_8h_af900384530aba4aeb93f8edbe24f31dd}{\index{my\-\_\-malloc.\-h@{my\-\_\-malloc.\-h}!my\-\_\-free@{my\-\_\-free}}
+\index{my\-\_\-free@{my\-\_\-free}!my_malloc.h@{my\-\_\-malloc.\-h}}
+\subsubsection[{my\-\_\-free}]{\setlength{\rightskip}{0pt plus 5cm}void my\-\_\-free (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{my__malloc_8h_af900384530aba4aeb93f8edbe24f31dd}
+
+
+Definition at line 38 of file my\-\_\-malloc.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{d3/d59/my__malloc_8h_af900384530aba4aeb93f8edbe24f31dd_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{d3/d59/my__malloc_8h_af900384530aba4aeb93f8edbe24f31dd_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{my__malloc_8h_a2969e03371b23f06180ca4de701ea5e1}{\index{my\-\_\-malloc.\-h@{my\-\_\-malloc.\-h}!my\-\_\-malloc@{my\-\_\-malloc}}
+\index{my\-\_\-malloc@{my\-\_\-malloc}!my_malloc.h@{my\-\_\-malloc.\-h}}
+\subsubsection[{my\-\_\-malloc}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ my\-\_\-malloc (
+\begin{DoxyParamCaption}
+\item[{const unsigned int}]{size}
+\end{DoxyParamCaption}
+)}}\label{my__malloc_8h_a2969e03371b23f06180ca4de701ea5e1}
+
+
+Definition at line 24 of file my\-\_\-malloc.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{d3/d59/my__malloc_8h_a2969e03371b23f06180ca4de701ea5e1_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{d3/d59/my__malloc_8h_a2969e03371b23f06180ca4de701ea5e1_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{my__malloc_8h_af7ba749bd555c6f7eba7f09ca11100a2}{\index{my\-\_\-malloc.\-h@{my\-\_\-malloc.\-h}!new\-\_\-glist@{new\-\_\-glist}}
+\index{new\-\_\-glist@{new\-\_\-glist}!my_malloc.h@{my\-\_\-malloc.\-h}}
+\subsubsection[{new\-\_\-glist}]{\setlength{\rightskip}{0pt plus 5cm}{\bf t\-\_\-glist}$\ast$ new\-\_\-glist (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-glist} $\ast$}]{old, }
+\item[{void $\ast$}]{data}
+\end{DoxyParamCaption}
+)}}\label{my__malloc_8h_af7ba749bd555c6f7eba7f09ca11100a2}
+
+
+Definition at line 14 of file malloc\-\_\-gen\-\_\-list.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{d3/d59/my__malloc_8h_af7ba749bd555c6f7eba7f09ca11100a2_icgraph}
+\end{center}
+\end{figure}
+
+

@@ -1,0 +1,119 @@
+\hypertarget{lldi_8c}{\section{corewar/srcs/lldi.c File Reference}
+\label{lldi_8c}\index{corewar/srcs/lldi.\-c@{corewar/srcs/lldi.\-c}}
+}
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}corewar.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}champion.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-compare.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}nbr.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-fprintf.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gen\-\_\-list.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}vm.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}ldi.\-h\char`\"{}}\\*
+Include dependency graph for lldi.\-c\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{df/d99/lldi_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{lldi_8c_afccd6a4b5ca0bdc01abf27c39614faf7}{lldi\-\_\-direct\-\_\-indirect} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, unsigned char $\ast$$\ast$arena, char codage)
+\item 
+static int \hyperlink{lldi_8c_aa66ccdacedf52a49c0c01cbf6bac9101}{lput\-\_\-in\-\_\-reg} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, unsigned char $\ast$$\ast$arena, int i)
+\item 
+int \hyperlink{lldi_8c_ae5149ee0c556469c7da3abadf82293e3}{lldi} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, unsigned char $\ast$$\ast$arena)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{lldi_8c_ae5149ee0c556469c7da3abadf82293e3}{\index{lldi.\-c@{lldi.\-c}!lldi@{lldi}}
+\index{lldi@{lldi}!lldi.c@{lldi.\-c}}
+\subsubsection[{lldi}]{\setlength{\rightskip}{0pt plus 5cm}int lldi (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{unsigned char $\ast$$\ast$}]{arena}
+\end{DoxyParamCaption}
+)}}\label{lldi_8c_ae5149ee0c556469c7da3abadf82293e3}
+
+
+Definition at line 72 of file lldi.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{d2/df4/lldi_8c_ae5149ee0c556469c7da3abadf82293e3_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{lldi_8c_afccd6a4b5ca0bdc01abf27c39614faf7}{\index{lldi.\-c@{lldi.\-c}!lldi\-\_\-direct\-\_\-indirect@{lldi\-\_\-direct\-\_\-indirect}}
+\index{lldi\-\_\-direct\-\_\-indirect@{lldi\-\_\-direct\-\_\-indirect}!lldi.c@{lldi.\-c}}
+\subsubsection[{lldi\-\_\-direct\-\_\-indirect}]{\setlength{\rightskip}{0pt plus 5cm}static int lldi\-\_\-direct\-\_\-indirect (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{unsigned char $\ast$$\ast$}]{arena, }
+\item[{char}]{codage}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{lldi_8c_afccd6a4b5ca0bdc01abf27c39614faf7}
+
+
+Definition at line 22 of file lldi.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{d2/df4/lldi_8c_afccd6a4b5ca0bdc01abf27c39614faf7_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{d2/df4/lldi_8c_afccd6a4b5ca0bdc01abf27c39614faf7_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{lldi_8c_aa66ccdacedf52a49c0c01cbf6bac9101}{\index{lldi.\-c@{lldi.\-c}!lput\-\_\-in\-\_\-reg@{lput\-\_\-in\-\_\-reg}}
+\index{lput\-\_\-in\-\_\-reg@{lput\-\_\-in\-\_\-reg}!lldi.c@{lldi.\-c}}
+\subsubsection[{lput\-\_\-in\-\_\-reg}]{\setlength{\rightskip}{0pt plus 5cm}static int lput\-\_\-in\-\_\-reg (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{unsigned char $\ast$$\ast$}]{arena, }
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{lldi_8c_aa66ccdacedf52a49c0c01cbf6bac9101}
+
+
+Definition at line 52 of file lldi.\-c.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{d2/df4/lldi_8c_aa66ccdacedf52a49c0c01cbf6bac9101_icgraph}
+\end{center}
+\end{figure}
+
+

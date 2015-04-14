@@ -1,0 +1,72 @@
+.TH "asm/srcs/compil.c" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+asm/srcs/compil.c \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <unistd\&.h>\fP
+.br
+\fC#include 'stdlib\&.h'\fP
+.br
+\fC#include 'list_lab_in\&.h'\fP
+.br
+\fC#include 'process\&.h'\fP
+.br
+\fC#include 'get_next_line\&.h'\fP
+.br
+\fC#include 'my_fprintf\&.h'\fP
+.br
+\fC#include 'op\&.h'\fP
+.br
+\fC#include 'string\&.h'\fP
+.br
+\fC#include 'my_malloc\&.h'\fP
+.br
+\fC#include 'check\&.h'\fP
+.br
+\fC#include 'write_argvs\&.h'\fP
+.br
+\fC#include 'lexer\&.h'\fP
+.br
+\fC#include 'compile\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmy_compil\fP (char **lexed_line, \fBop_t\fP *optodo, int fd_binary)"
+.br
+.ti -1c
+.RI "void \fBmy_init_info\fP (\fBt_lateinfo\fP *info)"
+.br
+.ti -1c
+.RI "char ** \fBmy_epur\fP (char **tab)"
+.br
+.ti -1c
+.RI "int \fBmy_parsefile\fP (int fd_champ, int fd_binary)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int my_compil (char **lexed_line, \fBop_t\fP *optodo, intfd_binary)"
+
+.PP
+Definition at line 33 of file compil\&.c\&.
+.SS "char** my_epur (char **tab)"
+
+.PP
+Definition at line 74 of file compil\&.c\&.
+.SS "void my_init_info (\fBt_lateinfo\fP *info)"
+
+.PP
+Definition at line 61 of file compil\&.c\&.
+.SS "int my_parsefile (intfd_champ, intfd_binary)"
+
+.PP
+Definition at line 113 of file compil\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

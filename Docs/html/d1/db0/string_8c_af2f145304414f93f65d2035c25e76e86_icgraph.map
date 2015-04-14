@@ -1,0 +1,13 @@
+<map id="my_strlen" name="my_strlen">
+<area shape="rect" id="node3" href="$d0/db6/gen__list_8c.html#a2dfa3098ff9d3cf0f38ab89d1502463f" title="my_strcmp_lab" alt="" coords="150,5,261,32"/>
+<area shape="rect" id="node5" href="$db/da1/get__argv_8c.html#a0b2ae2ba08582e01f1fa3a02a42e4014" title="get_fname" alt="" coords="163,56,248,83"/>
+<area shape="rect" id="node7" href="$dc/d7e/label_8c.html#a68e75f6dc19bf1ad207e4ede39a78a91" title="get_label_def" alt="" coords="154,107,257,133"/>
+<area shape="rect" id="node9" href="$dc/d7e/label_8c.html#ad53c1fbf1e76c5dd094c957427c0995b" title="late_ext" alt="" coords="171,157,240,184"/>
+<area shape="rect" id="node11" href="$d8/d33/lexer_8c.html#a5b06789e7faa2a3d6702a45ea299d028" title="my_add_all" alt="" coords="159,208,251,235"/>
+<area shape="rect" id="node13" href="$d8/d33/lexer_8c.html#a9d987a70c88ab33366a6178db448c456" title="all_in_tab_base" alt="" coords="148,259,263,285"/>
+<area shape="rect" id="node15" href="$df/dd9/write__header_8c.html#ab2bbae199c6b0e2f0b46063cbd915755" title="get_name_comment" alt="" coords="133,309,277,336"/>
+<area shape="rect" id="node17" href="$d1/db0/string_8c.html#aee8c9fecf0b54a0f458f8260fe7f4ed7" title="my_putstr_error" alt="" coords="149,360,262,387"/>
+<area shape="rect" id="node19" href="$d1/db0/string_8c.html#a3948b7d0c14c14982479885075e92aab" title="my_putstr" alt="" coords="166,411,245,437"/>
+<area shape="rect" id="node21" href="$d1/d03/string__copy_8c.html#ac70bb366eddf8855c00d73a6ae753ad9" title="my_strcat" alt="" coords="166,461,245,488"/>
+<area shape="rect" id="node23" href="$d1/d03/string__copy_8c.html#a56472467e6fd3988699ea8fb7b4866ee" title="my_strncat" alt="" coords="162,512,249,539"/>
+</map>

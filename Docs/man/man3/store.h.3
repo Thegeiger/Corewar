@@ -1,0 +1,51 @@
+.TH "corewar/includes/store.h" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+corewar/includes/store.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBPC_1\fP   ((*arena)[(champion->pc + 1) % \fBMEM_SIZE\fP])"
+.br
+.ti -1c
+.RI "#define \fBPC_3\fP   ((*arena)[(champion->pc + 3) % \fBMEM_SIZE\fP])"
+.br
+.ti -1c
+.RI "#define \fBPC_2\fP   ((*arena)[(champion->pc + 2) % \fBMEM_SIZE\fP])"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBstore\fP (\fBt_champion\fP *champion, unsigned char **arena)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define PC_1   ((*arena)[(champion->pc + 1) % \fBMEM_SIZE\fP])"
+
+.PP
+Definition at line 14 of file store\&.h\&.
+.SS "#define PC_2   ((*arena)[(champion->pc + 2) % \fBMEM_SIZE\fP])"
+
+.PP
+Definition at line 16 of file store\&.h\&.
+.SS "#define PC_3   ((*arena)[(champion->pc + 3) % \fBMEM_SIZE\fP])"
+
+.PP
+Definition at line 15 of file store\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "int store (\fBt_champion\fP *champion, unsigned char **arena)"
+
+.PP
+Definition at line 23 of file store\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

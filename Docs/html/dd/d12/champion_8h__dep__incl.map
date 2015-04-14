@@ -1,0 +1,18 @@
+<map id="corewar/includes/champion.h" name="corewar/includes/champion.h">
+<area shape="rect" id="node3" href="$d2/d31/corewar_8h.html" title="corewar/includes/corewar.h" alt="" coords="1018,80,1205,107"/>
+<area shape="rect" id="node5" href="$d2/dfa/aff_8c.html" title="corewar/srcs/aff.c" alt="" coords="5,155,133,181"/>
+<area shape="rect" id="node7" href="$d7/d6c/calcul_8c.html" title="corewar/srcs/calcul.c" alt="" coords="157,155,305,181"/>
+<area shape="rect" id="node9" href="$dd/d97/fork_8c.html" title="corewar/srcs/fork.c" alt="" coords="331,155,465,181"/>
+<area shape="rect" id="node11" href="$d8/de0/ldi_8c.html" title="corewar/srcs/ldi.c" alt="" coords="491,155,619,181"/>
+<area shape="rect" id="node13" href="$d3/d42/live_8c.html" title="corewar/srcs/live.c" alt="" coords="643,155,777,181"/>
+<area shape="rect" id="node15" href="$d2/df4/lldi_8c.html" title="corewar/srcs/lldi.c" alt="" coords="803,155,932,181"/>
+<area shape="rect" id="node17" href="$d8/d80/lload_8c.html" title="corewar/srcs/lload.c" alt="" coords="957,155,1101,181"/>
+<area shape="rect" id="node19" href="$d9/dd4/load_8c.html" title="corewar/srcs/load.c" alt="" coords="1125,155,1265,181"/>
+<area shape="rect" id="node21" href="$d0/dd6/operation_8c.html" title="corewar/srcs/operation.c" alt="" coords="1291,155,1461,181"/>
+<area shape="rect" id="node23" href="$d4/dd5/sti_8c.html" title="corewar/srcs/sti.c" alt="" coords="1486,155,1612,181"/>
+<area shape="rect" id="node25" href="$d9/d7e/store_8c.html" title="corewar/srcs/store.c" alt="" coords="1637,155,1781,181"/>
+<area shape="rect" id="node27" href="$dc/d96/the__game_8c.html" title="corewar/srcs/the_game.c" alt="" coords="1806,155,1980,181"/>
+<area shape="rect" id="node29" href="$de/de9/vm_8c.html" title="corewar/srcs/vm.c" alt="" coords="2005,155,2136,181"/>
+<area shape="rect" id="node31" href="$d0/d10/zjump_8c.html" title="corewar/srcs/zjump.c" alt="" coords="2161,155,2309,181"/>
+<area shape="rect" id="node35" href="$df/d27/champion_8c.html" title="corewar/srcs/champion.c" alt="" coords="1586,80,1757,107"/>
+</map>

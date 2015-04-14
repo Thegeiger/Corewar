@@ -1,0 +1,58 @@
+.TH "corewar/includes/champion.h" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+corewar/includes/champion.h \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'op\&.h'\fP
+.br
+
+.SS "Data Structures"
+
+.in +1c
+.ti -1c
+.RI "struct \fBs_champion\fP"
+.br
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBSWAP_ENDIAN\fP(nbr)   (((nbr>>24)&0xff) | ((nbr<<8)&0xff0000) | ((nbr>>8)&0xff00) | ((nbr<<24)&0xff000000))"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef struct \fBs_champion\fP \fBt_champion\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmy_champion\fP (int argc, char **argv, int *i, \fBt_champion\fP *champion)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define SWAP_ENDIAN(nbr)   (((nbr>>24)&0xff) | ((nbr<<8)&0xff0000) | ((nbr>>8)&0xff00) | ((nbr<<24)&0xff000000))"
+
+.PP
+Definition at line 15 of file champion\&.h\&.
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef struct \fBs_champion\fP			 \fBt_champion\fP"
+
+.SH "Function Documentation"
+.PP 
+.SS "int my_champion (intargc, char **argv, int *i, \fBt_champion\fP *champion)"
+
+.PP
+Definition at line 103 of file champion\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

@@ -1,0 +1,58 @@
+.TH "corewar/includes/calcul.h" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+corewar/includes/calcul.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBREG_PC_1\fP   (champion->reg[(*arena)[(champion->pc + 1) % \fBMEM_SIZE\fP]])"
+.br
+.ti -1c
+.RI "#define \fBREG_PC_2\fP   (champion->reg[(*arena)[(champion->pc + 2) % \fBMEM_SIZE\fP]])"
+.br
+.ti -1c
+.RI "#define \fBREG_PC_3\fP   (champion->reg[(*arena)[(champion->pc + 3) % \fBMEM_SIZE\fP]])"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBaddition\fP (\fBt_champion\fP *champion, unsigned char **arena)"
+.br
+.ti -1c
+.RI "int \fBsoustraction\fP (\fBt_champion\fP *champion, unsigned char **arena)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define REG_PC_1   (champion->reg[(*arena)[(champion->pc + 1) % \fBMEM_SIZE\fP]])"
+
+.PP
+Definition at line 14 of file calcul\&.h\&.
+.SS "#define REG_PC_2   (champion->reg[(*arena)[(champion->pc + 2) % \fBMEM_SIZE\fP]])"
+
+.PP
+Definition at line 15 of file calcul\&.h\&.
+.SS "#define REG_PC_3   (champion->reg[(*arena)[(champion->pc + 3) % \fBMEM_SIZE\fP]])"
+
+.PP
+Definition at line 16 of file calcul\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "int addition (\fBt_champion\fP *champion, unsigned char **arena)"
+
+.PP
+Definition at line 23 of file calcul\&.c\&.
+.SS "int soustraction (\fBt_champion\fP *champion, unsigned char **arena)"
+
+.PP
+Definition at line 40 of file calcul\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

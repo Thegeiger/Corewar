@@ -1,0 +1,17 @@
+<map id="corewar/includes/corewar.h" name="corewar/includes/corewar.h">
+<area shape="rect" id="node3" href="$d2/dfa/aff_8c.html" title="corewar/srcs/aff.c" alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node5" href="$d7/d6c/calcul_8c.html" title="corewar/srcs/calcul.c" alt="" coords="157,80,305,107"/>
+<area shape="rect" id="node7" href="$dd/d97/fork_8c.html" title="corewar/srcs/fork.c" alt="" coords="331,80,465,107"/>
+<area shape="rect" id="node9" href="$d8/de0/ldi_8c.html" title="corewar/srcs/ldi.c" alt="" coords="491,80,619,107"/>
+<area shape="rect" id="node11" href="$d3/d42/live_8c.html" title="corewar/srcs/live.c" alt="" coords="643,80,777,107"/>
+<area shape="rect" id="node13" href="$d2/df4/lldi_8c.html" title="corewar/srcs/lldi.c" alt="" coords="803,80,932,107"/>
+<area shape="rect" id="node15" href="$d8/d80/lload_8c.html" title="corewar/srcs/lload.c" alt="" coords="957,80,1101,107"/>
+<area shape="rect" id="node17" href="$d9/dd4/load_8c.html" title="corewar/srcs/load.c" alt="" coords="1125,80,1265,107"/>
+<area shape="rect" id="node19" href="$d1/de6/corewar_2srcs_2main_8c.html" title="corewar/srcs/main.c" alt="" coords="1290,80,1432,107"/>
+<area shape="rect" id="node21" href="$d0/dd6/operation_8c.html" title="corewar/srcs/operation.c" alt="" coords="1457,80,1628,107"/>
+<area shape="rect" id="node23" href="$d4/dd5/sti_8c.html" title="corewar/srcs/sti.c" alt="" coords="1653,80,1779,107"/>
+<area shape="rect" id="node25" href="$d9/d7e/store_8c.html" title="corewar/srcs/store.c" alt="" coords="1804,80,1948,107"/>
+<area shape="rect" id="node27" href="$dc/d96/the__game_8c.html" title="corewar/srcs/the_game.c" alt="" coords="1973,80,2147,107"/>
+<area shape="rect" id="node29" href="$de/de9/vm_8c.html" title="corewar/srcs/vm.c" alt="" coords="2171,80,2303,107"/>
+<area shape="rect" id="node31" href="$d0/d10/zjump_8c.html" title="corewar/srcs/zjump.c" alt="" coords="2328,80,2476,107"/>
+</map>

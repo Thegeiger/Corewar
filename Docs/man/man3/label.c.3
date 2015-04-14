@@ -1,0 +1,83 @@
+.TH "asm/srcs/label.c" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+asm/srcs/label.c \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <unistd\&.h>\fP
+.br
+\fC#include <fcntl\&.h>\fP
+.br
+\fC#include <sys/stat\&.h>\fP
+.br
+\fC#include 'op\&.h'\fP
+.br
+\fC#include 'list_lab_in\&.h'\fP
+.br
+\fC#include 'get_argv\&.h'\fP
+.br
+\fC#include 'compile\&.h'\fP
+.br
+\fC#include 'string_copy\&.h'\fP
+.br
+\fC#include 'my_fprintf\&.h'\fP
+.br
+\fC#include 'write_argvs\&.h'\fP
+.br
+\fC#include 'string_compare\&.h'\fP
+.br
+\fC#include 'my_malloc\&.h'\fP
+.br
+\fC#include 'get_next_line\&.h'\fP
+.br
+\fC#include 'process\&.h'\fP
+.br
+\fC#include 'string\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBheader_size_prog\fP (int fd_bin, int writed)"
+.br
+.ti -1c
+.RI "int \fBlate_operation\fP (int fd_bin, int writed, \fBt_lateinfo\fP *info)"
+.br
+.ti -1c
+.RI "int \fBget_label_def\fP (\fBt_lateinfo\fP *info, char **lexed_line, int fileoffset)"
+.br
+.ti -1c
+.RI "int \fBlate_ext\fP (\fBt_lateinfo\fP *info, char *word, int size, \fBt_pos_info\fP pos)"
+.br
+.ti -1c
+.RI "int \fBget_lateparam\fP (\fBt_lateinfo\fP *info, char **lines, int offset, \fBop_t\fP *op)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "int get_label_def (\fBt_lateinfo\fP *info, char **lexed_line, intfileoffset)"
+
+.PP
+Definition at line 84 of file label\&.c\&.
+.SS "int get_lateparam (\fBt_lateinfo\fP *info, char **lines, intoffset, \fBop_t\fP *op)"
+
+.PP
+Definition at line 143 of file label\&.c\&.
+.SS "int header_size_prog (intfd_bin, intwrited)"
+
+.PP
+Definition at line 31 of file label\&.c\&.
+.SS "int late_ext (\fBt_lateinfo\fP *info, char *word, intsize, \fBt_pos_info\fPpos)"
+
+.PP
+Definition at line 113 of file label\&.c\&.
+.SS "int late_operation (intfd_bin, intwrited, \fBt_lateinfo\fP *info)"
+
+.PP
+Definition at line 50 of file label\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

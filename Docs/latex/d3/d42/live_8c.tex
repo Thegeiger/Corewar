@@ -1,0 +1,212 @@
+\hypertarget{live_8c}{\section{corewar/srcs/live.c File Reference}
+\label{live_8c}\index{corewar/srcs/live.\-c@{corewar/srcs/live.\-c}}
+}
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}op.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}corewar.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}champion.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-compare.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}nbr.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-fprintf.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gen\-\_\-list.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}live.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}vm.\-h\char`\"{}}\\*
+Include dependency graph for live.\-c\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d5/d0d/live_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{live_8c_a9cbff3534c5bec5175f7a97db8d225e6}{reset\-\_\-live} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, \hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar)
+\item 
+int \hyperlink{live_8c_aa1a441044a9e8c7f95ca20317c04accf}{check\-\_\-live} (\hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar, int $\ast$nbr\-\_\-winner)
+\item 
+static void \hyperlink{live_8c_abc35eab1295e1cdb2f5812f38856fb5f}{check\-\_\-cycles} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, int $\ast$\hyperlink{live_8c_a8565e678907096c47a2f83854cea67e0}{live}, int $\ast$backup\-\_\-cycles, \hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar)
+\item 
+static int \hyperlink{live_8c_a90ceb21154f7b91d929bea567e2af394}{is\-\_\-alive} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, int nb, int $\ast$backup\-\_\-cycles, \hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar)
+\item 
+int \hyperlink{live_8c_a8565e678907096c47a2f83854cea67e0}{live} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, int $\ast$backup\-\_\-cycles, unsigned char $\ast$$\ast$arena, \hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{live_8c_abc35eab1295e1cdb2f5812f38856fb5f}{\index{live.\-c@{live.\-c}!check\-\_\-cycles@{check\-\_\-cycles}}
+\index{check\-\_\-cycles@{check\-\_\-cycles}!live.c@{live.\-c}}
+\subsubsection[{check\-\_\-cycles}]{\setlength{\rightskip}{0pt plus 5cm}static void check\-\_\-cycles (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{int $\ast$}]{live, }
+\item[{int $\ast$}]{backup\-\_\-cycles, }
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{live_8c_abc35eab1295e1cdb2f5812f38856fb5f}
+
+
+Definition at line 73 of file live.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d42/live_8c_abc35eab1295e1cdb2f5812f38856fb5f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{d3/d42/live_8c_abc35eab1295e1cdb2f5812f38856fb5f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{live_8c_aa1a441044a9e8c7f95ca20317c04accf}{\index{live.\-c@{live.\-c}!check\-\_\-live@{check\-\_\-live}}
+\index{check\-\_\-live@{check\-\_\-live}!live.c@{live.\-c}}
+\subsubsection[{check\-\_\-live}]{\setlength{\rightskip}{0pt plus 5cm}int check\-\_\-live (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar, }
+\item[{int $\ast$}]{nbr\-\_\-winner}
+\end{DoxyParamCaption}
+)}}\label{live_8c_aa1a441044a9e8c7f95ca20317c04accf}
+
+
+Definition at line 44 of file live.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{d3/d42/live_8c_aa1a441044a9e8c7f95ca20317c04accf_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{d3/d42/live_8c_aa1a441044a9e8c7f95ca20317c04accf_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{live_8c_a90ceb21154f7b91d929bea567e2af394}{\index{live.\-c@{live.\-c}!is\-\_\-alive@{is\-\_\-alive}}
+\index{is\-\_\-alive@{is\-\_\-alive}!live.c@{live.\-c}}
+\subsubsection[{is\-\_\-alive}]{\setlength{\rightskip}{0pt plus 5cm}static int is\-\_\-alive (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{int}]{nb, }
+\item[{int $\ast$}]{backup\-\_\-cycles, }
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{live_8c_a90ceb21154f7b91d929bea567e2af394}
+
+
+Definition at line 101 of file live.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{d3/d42/live_8c_a90ceb21154f7b91d929bea567e2af394_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{d3/d42/live_8c_a90ceb21154f7b91d929bea567e2af394_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{live_8c_a8565e678907096c47a2f83854cea67e0}{\index{live.\-c@{live.\-c}!live@{live}}
+\index{live@{live}!live.c@{live.\-c}}
+\subsubsection[{live}]{\setlength{\rightskip}{0pt plus 5cm}int live (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{int $\ast$}]{backup\-\_\-cycles, }
+\item[{unsigned char $\ast$$\ast$}]{arena, }
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar}
+\end{DoxyParamCaption}
+)}}\label{live_8c_a8565e678907096c47a2f83854cea67e0}
+
+
+Definition at line 123 of file live.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{d3/d42/live_8c_a8565e678907096c47a2f83854cea67e0_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=206pt]{d3/d42/live_8c_a8565e678907096c47a2f83854cea67e0_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{live_8c_a9cbff3534c5bec5175f7a97db8d225e6}{\index{live.\-c@{live.\-c}!reset\-\_\-live@{reset\-\_\-live}}
+\index{reset\-\_\-live@{reset\-\_\-live}!live.c@{live.\-c}}
+\subsubsection[{reset\-\_\-live}]{\setlength{\rightskip}{0pt plus 5cm}static void reset\-\_\-live (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{live_8c_a9cbff3534c5bec5175f7a97db8d225e6}
+
+
+Definition at line 23 of file live.\-c.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{d3/d42/live_8c_a9cbff3534c5bec5175f7a97db8d225e6_icgraph}
+\end{center}
+\end{figure}
+
+

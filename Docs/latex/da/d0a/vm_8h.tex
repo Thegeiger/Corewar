@@ -1,0 +1,107 @@
+\hypertarget{vm_8h}{\section{corewar/includes/vm.h File Reference}
+\label{vm_8h}\index{corewar/includes/vm.\-h@{corewar/includes/vm.\-h}}
+}
+This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d97/vm_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{vm_8h_ac660bc197c864fd659e5f78b4a923534}{I\-S\-\_\-\-R\-E\-G\-I\-S\-T\-E\-R}(char)~(((char) \& (0x\-C0)) == (0x40) ? (1) \-: (0))
+\item 
+\#define \hyperlink{vm_8h_a249e1d5cb32a4ffee1cba428334b6f55}{I\-S\-\_\-\-D\-I\-R\-E\-C\-T}(char)~(((char) \& (0x\-C0)) == (0x80) ? (1) \-: (0))
+\item 
+\#define \hyperlink{vm_8h_a42e6ec20316f65f2073b872493fba21b}{I\-S\-\_\-\-I\-N\-D\-I\-R\-E\-C\-T}(char)~(((char) \& (0x\-C0)) == (0x\-C0) ? (1) \-: (0))
+\item 
+\#define \hyperlink{vm_8h_a0e92d9281975ddd3a39ad06d3e0e600a}{N\-E\-X\-T\-\_\-\-I\-N\-S\-T}~(($\ast$arena)\mbox{[}champion-\/$>$pc\mbox{]} -\/ 1)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{vm_8h_a6318123dd81f79c22142e57099d682ea}{my\-\_\-vm} (\hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{vm_8h_a249e1d5cb32a4ffee1cba428334b6f55}{\index{vm.\-h@{vm.\-h}!I\-S\-\_\-\-D\-I\-R\-E\-C\-T@{I\-S\-\_\-\-D\-I\-R\-E\-C\-T}}
+\index{I\-S\-\_\-\-D\-I\-R\-E\-C\-T@{I\-S\-\_\-\-D\-I\-R\-E\-C\-T}!vm.h@{vm.\-h}}
+\subsubsection[{I\-S\-\_\-\-D\-I\-R\-E\-C\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\-S\-\_\-\-D\-I\-R\-E\-C\-T(
+\begin{DoxyParamCaption}
+\item[{}]{char}
+\end{DoxyParamCaption}
+)~(((char) \& (0x\-C0)) == (0x80) ? (1) \-: (0))}}\label{vm_8h_a249e1d5cb32a4ffee1cba428334b6f55}
+
+
+Definition at line 15 of file vm.\-h.
+
+\hypertarget{vm_8h_a42e6ec20316f65f2073b872493fba21b}{\index{vm.\-h@{vm.\-h}!I\-S\-\_\-\-I\-N\-D\-I\-R\-E\-C\-T@{I\-S\-\_\-\-I\-N\-D\-I\-R\-E\-C\-T}}
+\index{I\-S\-\_\-\-I\-N\-D\-I\-R\-E\-C\-T@{I\-S\-\_\-\-I\-N\-D\-I\-R\-E\-C\-T}!vm.h@{vm.\-h}}
+\subsubsection[{I\-S\-\_\-\-I\-N\-D\-I\-R\-E\-C\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\-S\-\_\-\-I\-N\-D\-I\-R\-E\-C\-T(
+\begin{DoxyParamCaption}
+\item[{}]{char}
+\end{DoxyParamCaption}
+)~(((char) \& (0x\-C0)) == (0x\-C0) ? (1) \-: (0))}}\label{vm_8h_a42e6ec20316f65f2073b872493fba21b}
+
+
+Definition at line 16 of file vm.\-h.
+
+\hypertarget{vm_8h_ac660bc197c864fd659e5f78b4a923534}{\index{vm.\-h@{vm.\-h}!I\-S\-\_\-\-R\-E\-G\-I\-S\-T\-E\-R@{I\-S\-\_\-\-R\-E\-G\-I\-S\-T\-E\-R}}
+\index{I\-S\-\_\-\-R\-E\-G\-I\-S\-T\-E\-R@{I\-S\-\_\-\-R\-E\-G\-I\-S\-T\-E\-R}!vm.h@{vm.\-h}}
+\subsubsection[{I\-S\-\_\-\-R\-E\-G\-I\-S\-T\-E\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\-S\-\_\-\-R\-E\-G\-I\-S\-T\-E\-R(
+\begin{DoxyParamCaption}
+\item[{}]{char}
+\end{DoxyParamCaption}
+)~(((char) \& (0x\-C0)) == (0x40) ? (1) \-: (0))}}\label{vm_8h_ac660bc197c864fd659e5f78b4a923534}
+
+
+Definition at line 14 of file vm.\-h.
+
+\hypertarget{vm_8h_a0e92d9281975ddd3a39ad06d3e0e600a}{\index{vm.\-h@{vm.\-h}!N\-E\-X\-T\-\_\-\-I\-N\-S\-T@{N\-E\-X\-T\-\_\-\-I\-N\-S\-T}}
+\index{N\-E\-X\-T\-\_\-\-I\-N\-S\-T@{N\-E\-X\-T\-\_\-\-I\-N\-S\-T}!vm.h@{vm.\-h}}
+\subsubsection[{N\-E\-X\-T\-\_\-\-I\-N\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-E\-X\-T\-\_\-\-I\-N\-S\-T~(($\ast$arena)\mbox{[}champion-\/$>$pc\mbox{]} -\/ 1)}}\label{vm_8h_a0e92d9281975ddd3a39ad06d3e0e600a}
+
+
+Definition at line 17 of file vm.\-h.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{vm_8h_a6318123dd81f79c22142e57099d682ea}{\index{vm.\-h@{vm.\-h}!my\-\_\-vm@{my\-\_\-vm}}
+\index{my\-\_\-vm@{my\-\_\-vm}!vm.h@{vm.\-h}}
+\subsubsection[{my\-\_\-vm}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-vm (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar}
+\end{DoxyParamCaption}
+)}}\label{vm_8h_a6318123dd81f79c22142e57099d682ea}
+
+
+Definition at line 89 of file vm.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{da/d0a/vm_8h_a6318123dd81f79c22142e57099d682ea_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{da/d0a/vm_8h_a6318123dd81f79c22142e57099d682ea_icgraph}
+\end{center}
+\end{figure}
+
+

@@ -1,0 +1,218 @@
+\hypertarget{label_8c}{\section{asm/srcs/label.c File Reference}
+\label{label_8c}\index{asm/srcs/label.\-c@{asm/srcs/label.\-c}}
+}
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$fcntl.\-h$>$}\\*
+{\ttfamily \#include $<$sys/stat.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}op.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}list\-\_\-lab\-\_\-in.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}get\-\_\-argv.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}compile.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-copy.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-fprintf.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}write\-\_\-argvs.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-compare.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}get\-\_\-next\-\_\-line.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}process.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string.\-h\char`\"{}}\\*
+Include dependency graph for label.\-c\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dd/d21/label_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{label_8c_a07317474f4f23ef25856daa71b8534da}{header\-\_\-size\-\_\-prog} (int fd\-\_\-bin, int writed)
+\item 
+int \hyperlink{label_8c_af66636c0f888f33983f6630fa1911bae}{late\-\_\-operation} (int fd\-\_\-bin, int writed, \hyperlink{list__lab__in_8h_a91fca2551b14cd3e3c189afabae27a0b}{t\-\_\-lateinfo} $\ast$info)
+\item 
+int \hyperlink{label_8c_a68e75f6dc19bf1ad207e4ede39a78a91}{get\-\_\-label\-\_\-def} (\hyperlink{list__lab__in_8h_a91fca2551b14cd3e3c189afabae27a0b}{t\-\_\-lateinfo} $\ast$info, char $\ast$$\ast$lexed\-\_\-line, int fileoffset)
+\item 
+int \hyperlink{label_8c_ad53c1fbf1e76c5dd094c957427c0995b}{late\-\_\-ext} (\hyperlink{list__lab__in_8h_a91fca2551b14cd3e3c189afabae27a0b}{t\-\_\-lateinfo} $\ast$info, char $\ast$word, int size, \hyperlink{compile_8h_a55d668897c420e8b402208277c8fc669}{t\-\_\-pos\-\_\-info} pos)
+\item 
+int \hyperlink{label_8c_a1a00bb23ce6bee936b9b966e61fba574}{get\-\_\-lateparam} (\hyperlink{list__lab__in_8h_a91fca2551b14cd3e3c189afabae27a0b}{t\-\_\-lateinfo} $\ast$info, char $\ast$$\ast$lines, int offset, \hyperlink{op_8h_a51ce7549e6b9948b233d73c4c0d0fe02}{op\-\_\-t} $\ast$op)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{label_8c_a68e75f6dc19bf1ad207e4ede39a78a91}{\index{label.\-c@{label.\-c}!get\-\_\-label\-\_\-def@{get\-\_\-label\-\_\-def}}
+\index{get\-\_\-label\-\_\-def@{get\-\_\-label\-\_\-def}!label.c@{label.\-c}}
+\subsubsection[{get\-\_\-label\-\_\-def}]{\setlength{\rightskip}{0pt plus 5cm}int get\-\_\-label\-\_\-def (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-lateinfo} $\ast$}]{info, }
+\item[{char $\ast$$\ast$}]{lexed\-\_\-line, }
+\item[{int}]{fileoffset}
+\end{DoxyParamCaption}
+)}}\label{label_8c_a68e75f6dc19bf1ad207e4ede39a78a91}
+
+
+Definition at line 84 of file label.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{dc/d7e/label_8c_a68e75f6dc19bf1ad207e4ede39a78a91_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{dc/d7e/label_8c_a68e75f6dc19bf1ad207e4ede39a78a91_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{label_8c_a1a00bb23ce6bee936b9b966e61fba574}{\index{label.\-c@{label.\-c}!get\-\_\-lateparam@{get\-\_\-lateparam}}
+\index{get\-\_\-lateparam@{get\-\_\-lateparam}!label.c@{label.\-c}}
+\subsubsection[{get\-\_\-lateparam}]{\setlength{\rightskip}{0pt plus 5cm}int get\-\_\-lateparam (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-lateinfo} $\ast$}]{info, }
+\item[{char $\ast$$\ast$}]{lines, }
+\item[{int}]{offset, }
+\item[{{\bf op\-\_\-t} $\ast$}]{op}
+\end{DoxyParamCaption}
+)}}\label{label_8c_a1a00bb23ce6bee936b9b966e61fba574}
+
+
+Definition at line 143 of file label.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{dc/d7e/label_8c_a1a00bb23ce6bee936b9b966e61fba574_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{dc/d7e/label_8c_a1a00bb23ce6bee936b9b966e61fba574_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{label_8c_a07317474f4f23ef25856daa71b8534da}{\index{label.\-c@{label.\-c}!header\-\_\-size\-\_\-prog@{header\-\_\-size\-\_\-prog}}
+\index{header\-\_\-size\-\_\-prog@{header\-\_\-size\-\_\-prog}!label.c@{label.\-c}}
+\subsubsection[{header\-\_\-size\-\_\-prog}]{\setlength{\rightskip}{0pt plus 5cm}int header\-\_\-size\-\_\-prog (
+\begin{DoxyParamCaption}
+\item[{int}]{fd\-\_\-bin, }
+\item[{int}]{writed}
+\end{DoxyParamCaption}
+)}}\label{label_8c_a07317474f4f23ef25856daa71b8534da}
+
+
+Definition at line 31 of file label.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{dc/d7e/label_8c_a07317474f4f23ef25856daa71b8534da_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{dc/d7e/label_8c_a07317474f4f23ef25856daa71b8534da_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{label_8c_ad53c1fbf1e76c5dd094c957427c0995b}{\index{label.\-c@{label.\-c}!late\-\_\-ext@{late\-\_\-ext}}
+\index{late\-\_\-ext@{late\-\_\-ext}!label.c@{label.\-c}}
+\subsubsection[{late\-\_\-ext}]{\setlength{\rightskip}{0pt plus 5cm}int late\-\_\-ext (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-lateinfo} $\ast$}]{info, }
+\item[{char $\ast$}]{word, }
+\item[{int}]{size, }
+\item[{{\bf t\-\_\-pos\-\_\-info}}]{pos}
+\end{DoxyParamCaption}
+)}}\label{label_8c_ad53c1fbf1e76c5dd094c957427c0995b}
+
+
+Definition at line 113 of file label.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{dc/d7e/label_8c_ad53c1fbf1e76c5dd094c957427c0995b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{dc/d7e/label_8c_ad53c1fbf1e76c5dd094c957427c0995b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{label_8c_af66636c0f888f33983f6630fa1911bae}{\index{label.\-c@{label.\-c}!late\-\_\-operation@{late\-\_\-operation}}
+\index{late\-\_\-operation@{late\-\_\-operation}!label.c@{label.\-c}}
+\subsubsection[{late\-\_\-operation}]{\setlength{\rightskip}{0pt plus 5cm}int late\-\_\-operation (
+\begin{DoxyParamCaption}
+\item[{int}]{fd\-\_\-bin, }
+\item[{int}]{writed, }
+\item[{{\bf t\-\_\-lateinfo} $\ast$}]{info}
+\end{DoxyParamCaption}
+)}}\label{label_8c_af66636c0f888f33983f6630fa1911bae}
+
+
+Definition at line 50 of file label.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{dc/d7e/label_8c_af66636c0f888f33983f6630fa1911bae_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{dc/d7e/label_8c_af66636c0f888f33983f6630fa1911bae_icgraph}
+\end{center}
+\end{figure}
+
+

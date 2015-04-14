@@ -1,0 +1,61 @@
+\hypertarget{lib_2srcs_2op_8c}{\section{lib/srcs/op.c File Reference}
+\label{lib_2srcs_2op_8c}\index{lib/srcs/op.\-c@{lib/srcs/op.\-c}}
+}
+{\ttfamily \#include \char`\"{}op.\-h\char`\"{}}\\*
+Include dependency graph for op.\-c\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=150pt]{d1/d2c/lib_2srcs_2op_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{asm_2includes_2op_8h_a51ce7549e6b9948b233d73c4c0d0fe02}{op\-\_\-t} \hyperlink{lib_2srcs_2op_8c_a9f737191e90783de09e368275aeef2d7}{op\-\_\-tab} \mbox{[}$\,$\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{Variable Documentation}
+\hypertarget{lib_2srcs_2op_8c_a9f737191e90783de09e368275aeef2d7}{\index{lib/srcs/op.\-c@{lib/srcs/op.\-c}!op\-\_\-tab@{op\-\_\-tab}}
+\index{op\-\_\-tab@{op\-\_\-tab}!lib/srcs/op.c@{lib/srcs/op.\-c}}
+\subsubsection[{op\-\_\-tab}]{\setlength{\rightskip}{0pt plus 5cm}{\bf op\-\_\-t} op\-\_\-tab\mbox{[}$\,$\mbox{]}}}\label{lib_2srcs_2op_8c_a9f737191e90783de09e368275aeef2d7}
+{\bfseries Initial value\-:}
+\begin{DoxyCode}
+=
+  \{
+    \{\textcolor{stringliteral}{"live"}, 1, \{\hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR}\}, 1, 10, \textcolor{stringliteral}{"alive"}\},
+    \{\textcolor{stringliteral}{"ld"}, 2, \{\hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}\}, 2, 5, \textcolor{stringliteral}{"load"}\},
+    \{\textcolor{stringliteral}{"st"}, 2, \{\hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}, \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND} | \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}\}, 3, 5, \textcolor{stringliteral}{"store"}\},
+    \{\textcolor{stringliteral}{"add"}, 3, \{\hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}, T\_REG\}, 4, 10, \textcolor{stringliteral}{"addition"}\},
+    \{\textcolor{stringliteral}{"sub"}, 3, \{\hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}, T\_REG\}, 5, 10, \textcolor{stringliteral}{"soustraction"}\},
+    \{\textcolor{stringliteral}{"and"}, 3, \{\hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG} | \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND} | 
+      \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}\}, 6, 6,
+     \textcolor{stringliteral}{"et (and  r1, r2, r3   r1&r2 -> r3"}\},
+    \{\textcolor{stringliteral}{"or"}, 3, \{\hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND} | \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND} | 
+      \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}\}, 7, 6,
+     \textcolor{stringliteral}{"ou  (or   r1, r2, r3   r1 | r2 -> r3"}\},
+    \{\textcolor{stringliteral}{"xor"}, 3, \{\hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND} | \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND} | 
+      \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}\}, 8, 6,
+     \textcolor{stringliteral}{"ou (xor  r1, r2, r3   r1^r2 -> r3"}\},
+    \{\textcolor{stringliteral}{"zjmp"}, 1, \{\hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR}\}, 9, 20, \textcolor{stringliteral}{"jump if zero"}\},
+    \{\textcolor{stringliteral}{"ldi"}, 3, \{\hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG} | \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND}, \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR} | \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}, 
+      \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}\}, 10, 25,
+     \textcolor{stringliteral}{"load index"}\},
+    \{\textcolor{stringliteral}{"sti"}, 3, \{\hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG} | \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND}, \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR} | 
+      \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}\}, 11, 25,
+     \textcolor{stringliteral}{"store index"}\},
+    \{\textcolor{stringliteral}{"fork"}, 1, \{\hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR}\}, 12, 800, \textcolor{stringliteral}{"fork"}\},
+    \{\textcolor{stringliteral}{"lld"}, 2, \{\hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND}, \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}\}, 13, 10, \textcolor{stringliteral}{"long load"}\},
+    \{\textcolor{stringliteral}{"lldi"}, 3, \{\hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG} | \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR} | \hyperlink{asm_2includes_2op_8h_a65c4475051ac76603d1360b0e95a5fbc}{T\_IND}, \hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR} | \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}, 
+      \hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}\}, 14, 50,
+     \textcolor{stringliteral}{"long load index"}\},
+    \{\textcolor{stringliteral}{"lfork"}, 1, \{\hyperlink{asm_2includes_2op_8h_a91136bcd71a9f499304f5d7e7e9d6376}{T\_DIR}\}, 15, 1000, \textcolor{stringliteral}{"long fork"}\},
+    \{\textcolor{stringliteral}{"aff"}, 1, \{\hyperlink{asm_2includes_2op_8h_a109aeb5473f651bba0263dbf92c97221}{T\_REG}\}, 16, 2, \textcolor{stringliteral}{"aff"}\},
+    \{0, 0, \{0\}, 0, 0, 0\}
+  \}
+\end{DoxyCode}
+
+
+Definition at line 17 of file op.\-c.
+

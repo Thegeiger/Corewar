@@ -1,0 +1,15 @@
+<map id="lib/includes/string.h" name="lib/includes/string.h">
+<area shape="rect" id="node3" href="$d2/dfa/aff_8c.html" title="corewar/srcs/aff.c" alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node5" href="$de/d36/check__param_8c.html" title="asm/srcs/check_param.c" alt="" coords="158,80,329,107"/>
+<area shape="rect" id="node7" href="$d1/d21/compil_8c.html" title="asm/srcs/compil.c" alt="" coords="355,80,484,107"/>
+<area shape="rect" id="node9" href="$d0/db6/gen__list_8c.html" title="asm/srcs/gen_list.c" alt="" coords="510,80,647,107"/>
+<area shape="rect" id="node11" href="$db/da1/get__argv_8c.html" title="asm/srcs/get_argv.c" alt="" coords="672,80,816,107"/>
+<area shape="rect" id="node13" href="$dc/d7e/label_8c.html" title="asm/srcs/label.c" alt="" coords="840,80,960,107"/>
+<area shape="rect" id="node15" href="$d8/d33/lexer_8c.html" title="asm/srcs/lexer.c" alt="" coords="985,80,1105,107"/>
+<area shape="rect" id="node17" href="$d7/d13/asm_2srcs_2main_8c.html" title="asm/srcs/main.c" alt="" coords="1131,80,1251,107"/>
+<area shape="rect" id="node19" href="$df/dd9/write__header_8c.html" title="asm/srcs/write_header.c" alt="" coords="1275,80,1444,107"/>
+<area shape="rect" id="node21" href="$d6/da3/my__fprintf_8c.html" title="lib/srcs/my_fprintf.c" alt="" coords="1469,80,1603,107"/>
+<area shape="rect" id="node23" href="$d5/d9a/nbr_8c.html" title="lib/srcs/nbr.c" alt="" coords="1627,80,1723,107"/>
+<area shape="rect" id="node25" href="$d8/dd2/string__compare_8c.html" title="lib/srcs/string_compare.c" alt="" coords="1747,80,1917,107"/>
+<area shape="rect" id="node27" href="$d1/d03/string__copy_8c.html" title="lib/srcs/string_copy.c" alt="" coords="1941,80,2088,107"/>
+</map>

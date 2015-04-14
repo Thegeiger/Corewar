@@ -1,0 +1,119 @@
+.TH "corewar/srcs/the_game.c" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+corewar/srcs/the_game.c \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include 'op\&.h'\fP
+.br
+\fC#include 'corewar\&.h'\fP
+.br
+\fC#include 'champion\&.h'\fP
+.br
+\fC#include 'string_compare\&.h'\fP
+.br
+\fC#include 'nbr\&.h'\fP
+.br
+\fC#include 'my_fprintf\&.h'\fP
+.br
+\fC#include 'my_malloc\&.h'\fP
+.br
+\fC#include 'gen_list\&.h'\fP
+.br
+\fC#include 'vm\&.h'\fP
+.br
+\fC#include 'aff\&.h'\fP
+.br
+\fC#include 'calcul\&.h'\fP
+.br
+\fC#include 'fork\&.h'\fP
+.br
+\fC#include 'ldi\&.h'\fP
+.br
+\fC#include 'live\&.h'\fP
+.br
+\fC#include 'lldi\&.h'\fP
+.br
+\fC#include 'lload\&.h'\fP
+.br
+\fC#include 'load\&.h'\fP
+.br
+\fC#include 'operation\&.h'\fP
+.br
+\fC#include 'sti\&.h'\fP
+.br
+\fC#include 'store\&.h'\fP
+.br
+\fC#include 'zjump\&.h'\fP
+.br
+\fC#include 'the_game\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fByour_turn\fP (int *backup_cycles, unsigned char **arena, \fBt_corewar\fP *corewar)"
+.br
+.ti -1c
+.RI "static void \fBdump_it\fP (\fBt_corewar\fP *corewar, unsigned char **arena)"
+.br
+.ti -1c
+.RI "int \fBlets_play\fP (\fBt_corewar\fP *corewar, int cycles, int backup_cycles, unsigned char **arena)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "static int(* \fBg_fct\fP [])(\fBt_champion\fP *, unsigned char **)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "static void dump_it (\fBt_corewar\fP *corewar, unsigned char **arena)\fC [static]\fP"
+
+.PP
+Definition at line 93 of file the_game\&.c\&.
+.SS "int lets_play (\fBt_corewar\fP *corewar, intcycles, intbackup_cycles, unsigned char **arena)"
+
+.PP
+Definition at line 111 of file the_game\&.c\&.
+.SS "static int your_turn (int *backup_cycles, unsigned char **arena, \fBt_corewar\fP *corewar)\fC [static]\fP"
+
+.PP
+Definition at line 55 of file the_game\&.c\&.
+.SH "Variable Documentation"
+.PP 
+.SS "int(* g_fct[])(\fBt_champion\fP *, unsigned char **)\fC [static]\fP"
+\fBInitial value:\fP
+.PP
+.nf
+=
+{
+  &load,
+  &store,
+  &addition,
+  &soustraction,
+  &my_and,
+  &my_or,
+  &my_xor,
+  &zjump,
+  &ldi,
+  &sti,
+  &fork,
+  &lload,
+  &lldi,
+  &lfork,
+  &my_aff
+}
+.fi
+.PP
+Definition at line 36 of file the_game\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

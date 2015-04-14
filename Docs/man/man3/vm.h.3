@@ -1,0 +1,58 @@
+.TH "corewar/includes/vm.h" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+corewar/includes/vm.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBIS_REGISTER\fP(char)   (((char) & (0xC0)) == (0x40) ? (1) : (0))"
+.br
+.ti -1c
+.RI "#define \fBIS_DIRECT\fP(char)   (((char) & (0xC0)) == (0x80) ? (1) : (0))"
+.br
+.ti -1c
+.RI "#define \fBIS_INDIRECT\fP(char)   (((char) & (0xC0)) == (0xC0) ? (1) : (0))"
+.br
+.ti -1c
+.RI "#define \fBNEXT_INST\fP   ((*arena)[champion->pc] - 1)"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmy_vm\fP (\fBt_corewar\fP *corewar)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define IS_DIRECT(char)   (((char) & (0xC0)) == (0x80) ? (1) : (0))"
+
+.PP
+Definition at line 15 of file vm\&.h\&.
+.SS "#define IS_INDIRECT(char)   (((char) & (0xC0)) == (0xC0) ? (1) : (0))"
+
+.PP
+Definition at line 16 of file vm\&.h\&.
+.SS "#define IS_REGISTER(char)   (((char) & (0xC0)) == (0x40) ? (1) : (0))"
+
+.PP
+Definition at line 14 of file vm\&.h\&.
+.SS "#define NEXT_INST   ((*arena)[champion->pc] - 1)"
+
+.PP
+Definition at line 17 of file vm\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "int my_vm (\fBt_corewar\fP *corewar)"
+
+.PP
+Definition at line 89 of file vm\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

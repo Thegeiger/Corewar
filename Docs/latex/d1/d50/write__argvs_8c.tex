@@ -1,0 +1,170 @@
+\hypertarget{write__argvs_8c}{\section{asm/srcs/write\-\_\-argvs.c File Reference}
+\label{write__argvs_8c}\index{asm/srcs/write\-\_\-argvs.\-c@{asm/srcs/write\-\_\-argvs.\-c}}
+}
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}op.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}get\-\_\-next\-\_\-line.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-fprintf.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-copy.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}nbr.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-compare.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}get\-\_\-argv.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}compile.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}write\-\_\-argvs.\-h\char`\"{}}\\*
+Include dependency graph for write\-\_\-argvs.\-c\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d9/d0c/write__argvs_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{write__argvs_8c_abaa0d0fe3402643178ed1e17969daaa3}{my\-\_\-sub\-\_\-write\-\_\-arg} (char $\ast$str, int $\ast$writed, int bin, int cast)
+\item 
+int \hyperlink{write__argvs_8c_a83c24ebd7432a6084218b8e502bb9210}{my\-\_\-write\-\_\-arg} (int $\ast$writed, int fd\-\_\-binary, char $\ast$str, int cast)
+\item 
+int \hyperlink{write__argvs_8c_a0d6e07be7b9f59e7e50b545de9c9411c}{my\-\_\-write\-\_\-oct\-\_\-code} (char $\ast$$\ast$lexed, \hyperlink{op_8h_a51ce7549e6b9948b233d73c4c0d0fe02}{op\-\_\-t} $\ast$op, int fd\-\_\-binary, int writed)
+\item 
+int \hyperlink{write__argvs_8c_a929d5b863c4fbaa09c4a9fefaad3f6f4}{my\-\_\-write\-\_\-args} (char $\ast$$\ast$lexed\-\_\-line, \hyperlink{op_8h_a51ce7549e6b9948b233d73c4c0d0fe02}{op\-\_\-t} $\ast$optodo, int fd\-\_\-binary)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{write__argvs_8c_abaa0d0fe3402643178ed1e17969daaa3}{\index{write\-\_\-argvs.\-c@{write\-\_\-argvs.\-c}!my\-\_\-sub\-\_\-write\-\_\-arg@{my\-\_\-sub\-\_\-write\-\_\-arg}}
+\index{my\-\_\-sub\-\_\-write\-\_\-arg@{my\-\_\-sub\-\_\-write\-\_\-arg}!write_argvs.c@{write\-\_\-argvs.\-c}}
+\subsubsection[{my\-\_\-sub\-\_\-write\-\_\-arg}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-sub\-\_\-write\-\_\-arg (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{str, }
+\item[{int $\ast$}]{writed, }
+\item[{int}]{bin, }
+\item[{int}]{cast}
+\end{DoxyParamCaption}
+)}}\label{write__argvs_8c_abaa0d0fe3402643178ed1e17969daaa3}
+
+
+Definition at line 28 of file write\-\_\-argvs.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{d1/d50/write__argvs_8c_abaa0d0fe3402643178ed1e17969daaa3_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{d1/d50/write__argvs_8c_abaa0d0fe3402643178ed1e17969daaa3_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{write__argvs_8c_a83c24ebd7432a6084218b8e502bb9210}{\index{write\-\_\-argvs.\-c@{write\-\_\-argvs.\-c}!my\-\_\-write\-\_\-arg@{my\-\_\-write\-\_\-arg}}
+\index{my\-\_\-write\-\_\-arg@{my\-\_\-write\-\_\-arg}!write_argvs.c@{write\-\_\-argvs.\-c}}
+\subsubsection[{my\-\_\-write\-\_\-arg}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-write\-\_\-arg (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{writed, }
+\item[{int}]{fd\-\_\-binary, }
+\item[{char $\ast$}]{str, }
+\item[{int}]{cast}
+\end{DoxyParamCaption}
+)}}\label{write__argvs_8c_a83c24ebd7432a6084218b8e502bb9210}
+
+
+Definition at line 60 of file write\-\_\-argvs.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d50/write__argvs_8c_a83c24ebd7432a6084218b8e502bb9210_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=276pt]{d1/d50/write__argvs_8c_a83c24ebd7432a6084218b8e502bb9210_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{write__argvs_8c_a929d5b863c4fbaa09c4a9fefaad3f6f4}{\index{write\-\_\-argvs.\-c@{write\-\_\-argvs.\-c}!my\-\_\-write\-\_\-args@{my\-\_\-write\-\_\-args}}
+\index{my\-\_\-write\-\_\-args@{my\-\_\-write\-\_\-args}!write_argvs.c@{write\-\_\-argvs.\-c}}
+\subsubsection[{my\-\_\-write\-\_\-args}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-write\-\_\-args (
+\begin{DoxyParamCaption}
+\item[{char $\ast$$\ast$}]{lexed\-\_\-line, }
+\item[{{\bf op\-\_\-t} $\ast$}]{optodo, }
+\item[{int}]{fd\-\_\-binary}
+\end{DoxyParamCaption}
+)}}\label{write__argvs_8c_a929d5b863c4fbaa09c4a9fefaad3f6f4}
+
+
+Definition at line 118 of file write\-\_\-argvs.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{d1/d50/write__argvs_8c_a929d5b863c4fbaa09c4a9fefaad3f6f4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{d1/d50/write__argvs_8c_a929d5b863c4fbaa09c4a9fefaad3f6f4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{write__argvs_8c_a0d6e07be7b9f59e7e50b545de9c9411c}{\index{write\-\_\-argvs.\-c@{write\-\_\-argvs.\-c}!my\-\_\-write\-\_\-oct\-\_\-code@{my\-\_\-write\-\_\-oct\-\_\-code}}
+\index{my\-\_\-write\-\_\-oct\-\_\-code@{my\-\_\-write\-\_\-oct\-\_\-code}!write_argvs.c@{write\-\_\-argvs.\-c}}
+\subsubsection[{my\-\_\-write\-\_\-oct\-\_\-code}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-write\-\_\-oct\-\_\-code (
+\begin{DoxyParamCaption}
+\item[{char $\ast$$\ast$}]{lexed, }
+\item[{{\bf op\-\_\-t} $\ast$}]{op, }
+\item[{int}]{fd\-\_\-binary, }
+\item[{int}]{writed}
+\end{DoxyParamCaption}
+)}}\label{write__argvs_8c_a0d6e07be7b9f59e7e50b545de9c9411c}
+
+
+Definition at line 84 of file write\-\_\-argvs.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{d1/d50/write__argvs_8c_a0d6e07be7b9f59e7e50b545de9c9411c_icgraph}
+\end{center}
+\end{figure}
+
+

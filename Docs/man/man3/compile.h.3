@@ -1,0 +1,140 @@
+.TH "asm/includes/compile.h" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+asm/includes/compile.h \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'list_lab_in\&.h'\fP
+.br
+\fC#include 'op\&.h'\fP
+.br
+
+.SS "Data Structures"
+
+.in +1c
+.ti -1c
+.RI "struct \fBs_pos_info\fP"
+.br
+.in -1c
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBHEADER_SIZE\fP   (8 + \fBPROG_NAME_LENGTH\fP + \fBCOMMENT_LENGTH\fP)"
+.br
+.ti -1c
+.RI "#define \fBWARNING\fP   '\\33[33;1mWarning :\\33[0m'"
+.br
+.ti -1c
+.RI "#define \fBERROR\fP   '\\33[31;1mError :\\33[0m'"
+.br
+.ti -1c
+.RI "#define \fBNOTE\fP   '\\33[32;1mNote :\\33[0m'"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef struct \fBs_pos_info\fP \fBt_pos_info\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBt_pos_info\fP \fBmy_fuse\fP (int pos, int instruc)"
+.br
+.ti -1c
+.RI "int \fBmy_compil\fP (char **lexed_line, \fBop_t\fP *optodo, int fd_binary)"
+.br
+.ti -1c
+.RI "int \fBmy_parsefile\fP (int fd_champ, int fd_binary)"
+.br
+.ti -1c
+.RI "char * \fBget_quotes\fP (const char *str)"
+.br
+.ti -1c
+.RI "int \fBheader_size_prog\fP (int fd_bin, int writed)"
+.br
+.ti -1c
+.RI "int \fBlate_operation\fP (int fd_bin, int writed, \fBt_lateinfo\fP *info)"
+.br
+.ti -1c
+.RI "int \fBcheck_if_valid_label\fP (char *str)"
+.br
+.ti -1c
+.RI "int \fBget_label_def\fP (\fBt_lateinfo\fP *info, char **lexed_line, int fileoffset)"
+.br
+.ti -1c
+.RI "int \fBget_lateparam\fP (\fBt_lateinfo\fP *info, char **lexed_line, int fileoffset, \fBop_t\fP *optodo)"
+.br
+.ti -1c
+.RI "char * \fBput_in_char\fP (int nbr, int size)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define ERROR   '\\33[31;1mError :\\33[0m'"
+
+.PP
+Definition at line 18 of file compile\&.h\&.
+.SS "#define HEADER_SIZE   (8 + \fBPROG_NAME_LENGTH\fP + \fBCOMMENT_LENGTH\fP)"
+
+.PP
+Definition at line 16 of file compile\&.h\&.
+.SS "#define NOTE   '\\33[32;1mNote :\\33[0m'"
+
+.PP
+Definition at line 19 of file compile\&.h\&.
+.SS "#define WARNING   '\\33[33;1mWarning :\\33[0m'"
+
+.PP
+Definition at line 17 of file compile\&.h\&.
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef struct \fBs_pos_info\fP		 \fBt_pos_info\fP"
+
+.SH "Function Documentation"
+.PP 
+.SS "int check_if_valid_label (char *str)"
+
+.PP
+Definition at line 74 of file check_param\&.c\&.
+.SS "int get_label_def (\fBt_lateinfo\fP *info, char **lexed_line, intfileoffset)"
+
+.PP
+Definition at line 84 of file label\&.c\&.
+.SS "int get_lateparam (\fBt_lateinfo\fP *info, char **lexed_line, intfileoffset, \fBop_t\fP *optodo)"
+
+.PP
+Definition at line 143 of file label\&.c\&.
+.SS "char* get_quotes (const char *str)"
+
+.SS "int header_size_prog (intfd_bin, intwrited)"
+
+.PP
+Definition at line 31 of file label\&.c\&.
+.SS "int late_operation (intfd_bin, intwrited, \fBt_lateinfo\fP *info)"
+
+.PP
+Definition at line 50 of file label\&.c\&.
+.SS "int my_compil (char **lexed_line, \fBop_t\fP *optodo, intfd_binary)"
+
+.PP
+Definition at line 33 of file compil\&.c\&.
+.SS "\fBt_pos_info\fP my_fuse (intpos, intinstruc)"
+
+.PP
+Definition at line 114 of file process\&.c\&.
+.SS "int my_parsefile (intfd_champ, intfd_binary)"
+
+.PP
+Definition at line 113 of file compil\&.c\&.
+.SS "char* put_in_char (intnbr, intsize)"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

@@ -1,0 +1,58 @@
+.TH "lib/srcs/get_next_line.c" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+lib/srcs/get_next_line.c \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <unistd\&.h>\fP
+.br
+\fC#include <sys/types\&.h>\fP
+.br
+\fC#include <sys/stat\&.h>\fP
+.br
+\fC#include <fcntl\&.h>\fP
+.br
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include 'get_next_line\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fBmy_put_in_list\fP (\fBt_char\fP **list, const char character)"
+.br
+.ti -1c
+.RI "static int \fBmy_list_size\fP (\fBt_char\fP *list)"
+.br
+.ti -1c
+.RI "static char * \fBmy_convlist\fP (\fBt_char\fP *list)"
+.br
+.ti -1c
+.RI "char * \fBget_next_line\fP (const int fd)"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "char* get_next_line (const intfd)"
+
+.PP
+Definition at line 71 of file get_next_line\&.c\&.
+.SS "static char* my_convlist (\fBt_char\fP *list)\fC [static]\fP"
+
+.PP
+Definition at line 46 of file get_next_line\&.c\&.
+.SS "static int my_list_size (\fBt_char\fP *list)\fC [static]\fP"
+
+.PP
+Definition at line 31 of file get_next_line\&.c\&.
+.SS "static int my_put_in_list (\fBt_char\fP **list, const charcharacter)\fC [static]\fP"
+
+.PP
+Definition at line 18 of file get_next_line\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

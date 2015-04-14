@@ -1,0 +1,163 @@
+\hypertarget{vm_8c}{\section{corewar/srcs/vm.c File Reference}
+\label{vm_8c}\index{corewar/srcs/vm.\-c@{corewar/srcs/vm.\-c}}
+}
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}corewar.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}champion.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string\-\_\-compare.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}nbr.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-fprintf.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}gen\-\_\-list.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}vm.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}the\-\_\-game.\-h\char`\"{}}\\*
+Include dependency graph for vm.\-c\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d8/d9e/vm_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{vm_8c_a1ba138c8a95adf8279dd9a165c64d925}{check} ()
+\item 
+static void \hyperlink{vm_8c_a9eff714d1d216931f6297a0e7b3b6864}{set\-\_\-empty} (\hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar, unsigned char $\ast$$\ast$arena)
+\item 
+static int \hyperlink{vm_8c_a49f8141878fc35893dfb4a6d98222220}{set\-\_\-arena} (\hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar, unsigned char $\ast$$\ast$arena)
+\item 
+int \hyperlink{vm_8c_a6318123dd81f79c22142e57099d682ea}{my\-\_\-vm} (\hyperlink{corewar_8h_a3bf9b8231c53b1073a133e549ded1777}{t\-\_\-corewar} $\ast$corewar)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{vm_8c_a1ba138c8a95adf8279dd9a165c64d925}{\index{vm.\-c@{vm.\-c}!check@{check}}
+\index{check@{check}!vm.c@{vm.\-c}}
+\subsubsection[{check}]{\setlength{\rightskip}{0pt plus 5cm}static int check (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{vm_8c_a1ba138c8a95adf8279dd9a165c64d925}
+
+
+Definition at line 22 of file vm.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=218pt]{de/de9/vm_8c_a1ba138c8a95adf8279dd9a165c64d925_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{de/de9/vm_8c_a1ba138c8a95adf8279dd9a165c64d925_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{vm_8c_a6318123dd81f79c22142e57099d682ea}{\index{vm.\-c@{vm.\-c}!my\-\_\-vm@{my\-\_\-vm}}
+\index{my\-\_\-vm@{my\-\_\-vm}!vm.c@{vm.\-c}}
+\subsubsection[{my\-\_\-vm}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-vm (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar}
+\end{DoxyParamCaption}
+)}}\label{vm_8c_a6318123dd81f79c22142e57099d682ea}
+
+
+Definition at line 89 of file vm.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{de/de9/vm_8c_a6318123dd81f79c22142e57099d682ea_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{de/de9/vm_8c_a6318123dd81f79c22142e57099d682ea_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{vm_8c_a49f8141878fc35893dfb4a6d98222220}{\index{vm.\-c@{vm.\-c}!set\-\_\-arena@{set\-\_\-arena}}
+\index{set\-\_\-arena@{set\-\_\-arena}!vm.c@{vm.\-c}}
+\subsubsection[{set\-\_\-arena}]{\setlength{\rightskip}{0pt plus 5cm}static int set\-\_\-arena (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar, }
+\item[{unsigned char $\ast$$\ast$}]{arena}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{vm_8c_a49f8141878fc35893dfb4a6d98222220}
+
+
+Definition at line 63 of file vm.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{de/de9/vm_8c_a49f8141878fc35893dfb4a6d98222220_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{de/de9/vm_8c_a49f8141878fc35893dfb4a6d98222220_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{vm_8c_a9eff714d1d216931f6297a0e7b3b6864}{\index{vm.\-c@{vm.\-c}!set\-\_\-empty@{set\-\_\-empty}}
+\index{set\-\_\-empty@{set\-\_\-empty}!vm.c@{vm.\-c}}
+\subsubsection[{set\-\_\-empty}]{\setlength{\rightskip}{0pt plus 5cm}static void set\-\_\-empty (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-corewar} $\ast$}]{corewar, }
+\item[{unsigned char $\ast$$\ast$}]{arena}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{vm_8c_a9eff714d1d216931f6297a0e7b3b6864}
+
+
+Definition at line 41 of file vm.\-c.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{de/de9/vm_8c_a9eff714d1d216931f6297a0e7b3b6864_icgraph}
+\end{center}
+\end{figure}
+
+

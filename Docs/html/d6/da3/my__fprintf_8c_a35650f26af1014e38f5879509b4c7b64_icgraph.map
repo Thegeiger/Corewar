@@ -1,0 +1,35 @@
+<map id="my_fprintf" name="my_fprintf">
+<area shape="rect" id="node3" href="$de/d36/check__param_8c.html#a3733c5d12a474ef3f52f2b842588a5e9" title="my_check_param" alt="" coords="157,256,285,282"/>
+<area shape="rect" id="node5" href="$de/d36/check__param_8c.html#a7229d177ffd996a1f37989728c5c11d2" title="my_check_params" alt="" coords="365,205,499,232"/>
+<area shape="rect" id="node7" href="$d1/d21/compil_8c.html#ac90570dbce495f89534c76073a2c1831" title="my_compil" alt="" coords="569,154,655,181"/>
+<area shape="rect" id="node9" href="$d0/d85/process_8c.html#aa60c0c2eb4c97682a8dd4be02b96072b" title="process_line" alt="" coords="720,129,819,156"/>
+<area shape="rect" id="node11" href="$d1/d21/compil_8c.html#ae9aa8d794f6c75aa3c6b131a15fcb7ca" title="my_parsefile" alt="" coords="867,129,965,156"/>
+<area shape="rect" id="node13" href="$d0/d85/process_8c.html#a7f171e754b7d166cad2b4cfe4dc9c7af" title="proces_file" alt="" coords="1014,66,1101,93"/>
+<area shape="rect" id="node16" href="$de/d36/check__param_8c.html#a1ad3c381180e678695983d1c91157f3c" title="check_if_valid_label" alt="" coords="150,661,293,688"/>
+<area shape="rect" id="node20" href="$db/da1/get__argv_8c.html#a91d9889f105aba2ceba52a0554c4d872" title="get_quotes_comment" alt="" coords="146,408,297,434"/>
+<area shape="rect" id="node22" href="$df/dd9/write__header_8c.html#ab2bbae199c6b0e2f0b46063cbd915755" title="get_name_comment" alt="" coords="360,382,504,409"/>
+<area shape="rect" id="node24" href="$df/dd9/write__header_8c.html#ac7480a208dfb8ea7470dc43058e663e8" title="write_header" alt="" coords="562,332,662,358"/>
+<area shape="rect" id="node27" href="$db/da1/get__argv_8c.html#a4e291b57bd0c553d7bbad7f3e5b7cd50" title="get_quotes_name" alt="" coords="156,458,287,485"/>
+<area shape="rect" id="node30" href="$dc/d7e/label_8c.html#a07317474f4f23ef25856daa71b8534da" title="header_size_prog" alt="" coords="156,610,287,637"/>
+<area shape="rect" id="node32" href="$dc/d7e/label_8c.html#af66636c0f888f33983f6630fa1911bae" title="late_operation" alt="" coords="379,560,485,586"/>
+<area shape="rect" id="node36" href="$dc/d7e/label_8c.html#ad53c1fbf1e76c5dd094c957427c0995b" title="late_ext" alt="" coords="187,712,256,738"/>
+<area shape="rect" id="node40" href="$d1/d50/write__argvs_8c.html#abaa0d0fe3402643178ed1e17969daaa3" title="my_sub_write_arg" alt="" coords="156,813,287,840"/>
+<area shape="rect" id="node42" href="$d1/d50/write__argvs_8c.html#a83c24ebd7432a6084218b8e502bb9210" title="my_write_arg" alt="" coords="381,788,483,814"/>
+<area shape="rect" id="node46" href="$df/dd9/write__header_8c.html#a22a24dd72ba8a953542db66e3e482297" title="write_header_ext" alt="" coords="369,484,495,510"/>
+<area shape="rect" id="node50" href="$df/d27/champion_8c.html#a3ff6e48e3444c7cfa78d3d38928486aa" title="my_champion_file" alt="" coords="157,1016,286,1042"/>
+<area shape="rect" id="node52" href="$df/d27/champion_8c.html#a88f8f96480ee1079af9eb08d31de58ca" title="my_champion" alt="" coords="379,1016,485,1042"/>
+<area shape="rect" id="node54" href="$d1/de6/corewar_2srcs_2main_8c.html#a109d37719a77c88ad242493da1f77910" title="my_get_params" alt="" coords="553,1016,671,1042"/>
+<area shape="rect" id="node56" href="$d1/de6/corewar_2srcs_2main_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="744,1016,795,1042"/>
+<area shape="rect" id="node58" href="$df/d27/champion_8c.html#a41cb68389d44dc64a7c5e102a52c3da1" title="my_champion_parameters" alt="" coords="131,1066,311,1093"/>
+<area shape="rect" id="node62" href="$dd/d97/fork_8c.html#ab8fa2441be7734fc18c871d6b943751a" title="fork" alt="" coords="199,1573,243,1600"/>
+<area shape="rect" id="node64" href="$dd/d97/fork_8c.html#a231506fa26b9397616fd23cd511567a8" title="lfork" alt="" coords="198,1624,245,1650"/>
+<area shape="rect" id="node66" href="$d3/d42/live_8c.html#aa1a441044a9e8c7f95ca20317c04accf" title="check_live" alt="" coords="178,1320,265,1346"/>
+<area shape="rect" id="node68" href="$d3/d42/live_8c.html#abc35eab1295e1cdb2f5812f38856fb5f" title="check_cycles" alt="" coords="380,1421,484,1448"/>
+<area shape="rect" id="node70" href="$d3/d42/live_8c.html#a90ceb21154f7b91d929bea567e2af394" title="is_alive" alt="" coords="578,1472,646,1498"/>
+<area shape="rect" id="node72" href="$dc/d96/the__game_8c.html#a630a5667491c1894d4e45c56e79dfc75" title="lets_play" alt="" coords="395,1269,469,1296"/>
+<area shape="rect" id="node74" href="$de/de9/vm_8c.html#a6318123dd81f79c22142e57099d682ea" title="my_vm" alt="" coords="579,1269,645,1296"/>
+<area shape="rect" id="node79" href="$d1/de6/corewar_2srcs_2main_8c.html#a8a9f71fb99b50e9bfe9dccb70ed95416" title="my_order_champion" alt="" coords="360,1092,504,1118"/>
+<area shape="rect" id="node84" href="$dc/d96/the__game_8c.html#ac21b646056e2e91d14bb089bf6ab7f11" title="dump_it" alt="" coords="187,1269,255,1296"/>
+<area shape="rect" id="node88" href="$de/de9/vm_8c.html#a1ba138c8a95adf8279dd9a165c64d925" title="check" alt="" coords="403,1345,461,1372"/>
+<area shape="rect" id="node91" href="$de/de9/vm_8c.html#a49f8141878fc35893dfb4a6d98222220" title="set_arena" alt="" coords="391,1472,473,1498"/>
+</map>

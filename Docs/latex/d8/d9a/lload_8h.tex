@@ -1,0 +1,67 @@
+\hypertarget{lload_8h}{\section{corewar/includes/lload.h File Reference}
+\label{lload_8h}\index{corewar/includes/lload.\-h@{corewar/includes/lload.\-h}}
+}
+This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{d6/d10/lload_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{lload_8h_af0e31b8a2ca8fda65583008d9e03f96a}{R\-E\-G\-\_\-\-P\-C\-\_\-\-I\-N\-D\-\_\-\-S\-I\-Z\-E}~(champion-\/$>$reg\mbox{[}($\ast$arena)\mbox{[}(champion-\/$>$pc + \hyperlink{op_8h_a73364e5042a52312358ae1c5c8a6c265}{I\-N\-D\-\_\-\-S\-I\-Z\-E} + 2) \% \hyperlink{op_8h_a2dcf8c45f945dd0c4301a94700f2112c}{M\-E\-M\-\_\-\-S\-I\-Z\-E}\mbox{]}\mbox{]})
+\item 
+\#define \hyperlink{lload_8h_a23fef033486d2dfbda59ba2bf1222c54}{R\-E\-G\-\_\-\-P\-C\-\_\-\-D\-I\-R\-\_\-\-S\-I\-Z\-E}~(champion-\/$>$reg\mbox{[}($\ast$arena)\mbox{[}(champion-\/$>$pc + \hyperlink{op_8h_aac52a71d47407de47c401baf9c827cdb}{D\-I\-R\-\_\-\-S\-I\-Z\-E}) \% \hyperlink{op_8h_a2dcf8c45f945dd0c4301a94700f2112c}{M\-E\-M\-\_\-\-S\-I\-Z\-E}\mbox{]}\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{lload_8h_a531fd44fd1ebc315495f3e1bd244da4b}{lload} (\hyperlink{champion_8h_af3f9163944df13e54db0e86e23ad7384}{t\-\_\-champion} $\ast$champion, unsigned char $\ast$$\ast$arena)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{lload_8h_a23fef033486d2dfbda59ba2bf1222c54}{\index{lload.\-h@{lload.\-h}!R\-E\-G\-\_\-\-P\-C\-\_\-\-D\-I\-R\-\_\-\-S\-I\-Z\-E@{R\-E\-G\-\_\-\-P\-C\-\_\-\-D\-I\-R\-\_\-\-S\-I\-Z\-E}}
+\index{R\-E\-G\-\_\-\-P\-C\-\_\-\-D\-I\-R\-\_\-\-S\-I\-Z\-E@{R\-E\-G\-\_\-\-P\-C\-\_\-\-D\-I\-R\-\_\-\-S\-I\-Z\-E}!lload.h@{lload.\-h}}
+\subsubsection[{R\-E\-G\-\_\-\-P\-C\-\_\-\-D\-I\-R\-\_\-\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-E\-G\-\_\-\-P\-C\-\_\-\-D\-I\-R\-\_\-\-S\-I\-Z\-E~(champion-\/$>$reg\mbox{[}($\ast$arena)\mbox{[}(champion-\/$>$pc + {\bf D\-I\-R\-\_\-\-S\-I\-Z\-E}) \% {\bf M\-E\-M\-\_\-\-S\-I\-Z\-E}\mbox{]}\mbox{]})}}\label{lload_8h_a23fef033486d2dfbda59ba2bf1222c54}
+
+
+Definition at line 15 of file lload.\-h.
+
+\hypertarget{lload_8h_af0e31b8a2ca8fda65583008d9e03f96a}{\index{lload.\-h@{lload.\-h}!R\-E\-G\-\_\-\-P\-C\-\_\-\-I\-N\-D\-\_\-\-S\-I\-Z\-E@{R\-E\-G\-\_\-\-P\-C\-\_\-\-I\-N\-D\-\_\-\-S\-I\-Z\-E}}
+\index{R\-E\-G\-\_\-\-P\-C\-\_\-\-I\-N\-D\-\_\-\-S\-I\-Z\-E@{R\-E\-G\-\_\-\-P\-C\-\_\-\-I\-N\-D\-\_\-\-S\-I\-Z\-E}!lload.h@{lload.\-h}}
+\subsubsection[{R\-E\-G\-\_\-\-P\-C\-\_\-\-I\-N\-D\-\_\-\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define R\-E\-G\-\_\-\-P\-C\-\_\-\-I\-N\-D\-\_\-\-S\-I\-Z\-E~(champion-\/$>$reg\mbox{[}($\ast$arena)\mbox{[}(champion-\/$>$pc + {\bf I\-N\-D\-\_\-\-S\-I\-Z\-E} + 2) \% {\bf M\-E\-M\-\_\-\-S\-I\-Z\-E}\mbox{]}\mbox{]})}}\label{lload_8h_af0e31b8a2ca8fda65583008d9e03f96a}
+
+
+Definition at line 14 of file lload.\-h.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{lload_8h_a531fd44fd1ebc315495f3e1bd244da4b}{\index{lload.\-h@{lload.\-h}!lload@{lload}}
+\index{lload@{lload}!lload.h@{lload.\-h}}
+\subsubsection[{lload}]{\setlength{\rightskip}{0pt plus 5cm}int lload (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-champion} $\ast$}]{champion, }
+\item[{unsigned char $\ast$$\ast$}]{arena}
+\end{DoxyParamCaption}
+)}}\label{lload_8h_a531fd44fd1ebc315495f3e1bd244da4b}
+
+
+Definition at line 48 of file lload.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=234pt]{d8/d9a/lload_8h_a531fd44fd1ebc315495f3e1bd244da4b_cgraph}
+\end{center}
+\end{figure}
+
+

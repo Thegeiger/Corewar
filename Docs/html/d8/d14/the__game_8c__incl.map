@@ -1,0 +1,24 @@
+<map id="corewar/srcs/the_game.c" name="corewar/srcs/the_game.c">
+<area shape="rect" id="node5" href="$d5/d6c/op_8h.html" title="op.h" alt="" coords="123,229,169,256"/>
+<area shape="rect" id="node7" href="$d2/d31/corewar_8h.html" title="corewar.h" alt="" coords="143,80,224,107"/>
+<area shape="rect" id="node9" href="$d0/dd1/champion_8h.html" title="champion.h" alt="" coords="143,155,233,181"/>
+<area shape="rect" id="node13" href="$d5/d54/string__compare_8h.html" title="string_compare.h" alt="" coords="301,80,424,107"/>
+<area shape="rect" id="node15" href="$d5/d2b/nbr_8h.html" title="nbr.h" alt="" coords="449,80,500,107"/>
+<area shape="rect" id="node17" href="$de/de1/my__fprintf_8h.html" title="my_fprintf.h" alt="" coords="525,80,611,107"/>
+<area shape="rect" id="node19" href="$d3/d59/my__malloc_8h.html" title="my_malloc.h" alt="" coords="635,80,732,107"/>
+<area shape="rect" id="node21" href="$d3/d09/gen__list_8h.html" title="gen_list.h" alt="" coords="757,80,835,107"/>
+<area shape="rect" id="node23" href="$da/d0a/vm_8h.html" title="vm.h" alt="" coords="860,80,911,107"/>
+<area shape="rect" id="node25" href="$de/d32/aff_8h.html" title="aff.h" alt="" coords="935,80,981,107"/>
+<area shape="rect" id="node27" href="$df/d83/calcul_8h.html" title="calcul.h" alt="" coords="1007,80,1073,107"/>
+<area shape="rect" id="node29" href="$d4/d7a/fork_8h.html" title="fork.h" alt="" coords="1098,80,1152,107"/>
+<area shape="rect" id="node31" href="$d5/d4f/ldi_8h.html" title="ldi.h" alt="" coords="1177,80,1223,107"/>
+<area shape="rect" id="node33" href="$d3/df2/live_8h.html" title="live.h" alt="" coords="1248,80,1301,107"/>
+<area shape="rect" id="node35" href="$d3/d23/lldi_8h.html" title="lldi.h" alt="" coords="1326,80,1375,107"/>
+<area shape="rect" id="node37" href="$d8/d9a/lload_8h.html" title="lload.h" alt="" coords="1399,80,1461,107"/>
+<area shape="rect" id="node39" href="$dc/d61/load_8h.html" title="load.h" alt="" coords="1487,80,1544,107"/>
+<area shape="rect" id="node41" href="$d8/dbd/operation_8h.html" title="operation.h" alt="" coords="1569,80,1657,107"/>
+<area shape="rect" id="node43" href="$d7/d1a/sti_8h.html" title="sti.h" alt="" coords="1681,80,1727,107"/>
+<area shape="rect" id="node45" href="$d5/d3f/store_8h.html" title="store.h" alt="" coords="1751,80,1813,107"/>
+<area shape="rect" id="node47" href="$d1/dd5/zjump_8h.html" title="zjump.h" alt="" coords="1839,80,1905,107"/>
+<area shape="rect" id="node49" href="$d2/d4d/the__game_8h.html" title="the_game.h" alt="" coords="1930,80,2021,107"/>
+</map>

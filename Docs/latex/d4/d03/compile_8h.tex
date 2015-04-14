@@ -1,0 +1,386 @@
+\hypertarget{compile_8h}{\section{asm/includes/compile.h File Reference}
+\label{compile_8h}\index{asm/includes/compile.\-h@{asm/includes/compile.\-h}}
+}
+{\ttfamily \#include \char`\"{}list\-\_\-lab\-\_\-in.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}op.\-h\char`\"{}}\\*
+Include dependency graph for compile.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{d9/d70/compile_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/d75/compile_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structs__pos__info}{s\-\_\-pos\-\_\-info}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{compile_8h_a49999be01380f41cc0d0f1f1406fb277}{H\-E\-A\-D\-E\-R\-\_\-\-S\-I\-Z\-E}~(8 + \hyperlink{op_8h_a2bd1b5655c5d92af5ebe7f4bb3436b73}{P\-R\-O\-G\-\_\-\-N\-A\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H} + \hyperlink{op_8h_a31a10f5d8e8f9085ce0224cf043cb5fa}{C\-O\-M\-M\-E\-N\-T\-\_\-\-L\-E\-N\-G\-T\-H})
+\item 
+\#define \hyperlink{compile_8h_a5cb439d9f933fde4cf23caa370c030e7}{W\-A\-R\-N\-I\-N\-G}~\char`\"{}\textbackslash{}33\mbox{[}33;1m\-Warning \-:\textbackslash{}33\mbox{[}0m\char`\"{}
+\item 
+\#define \hyperlink{compile_8h_a8fe83ac76edc595f6b98cd4a4127aed5}{E\-R\-R\-O\-R}~\char`\"{}\textbackslash{}33\mbox{[}31;1m\-Error \-:\textbackslash{}33\mbox{[}0m\char`\"{}
+\item 
+\#define \hyperlink{compile_8h_a1ad73526ce07d2f3564dfd83c982ca3f}{N\-O\-T\-E}~\char`\"{}\textbackslash{}33\mbox{[}32;1m\-Note \-:\textbackslash{}33\mbox{[}0m\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structs__pos__info}{s\-\_\-pos\-\_\-info} \hyperlink{compile_8h_a55d668897c420e8b402208277c8fc669}{t\-\_\-pos\-\_\-info}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{compile_8h_a55d668897c420e8b402208277c8fc669}{t\-\_\-pos\-\_\-info} \hyperlink{compile_8h_ab8d8242eec2c52dd2b194c3df9db1bb9}{my\-\_\-fuse} (int pos, int instruc)
+\item 
+int \hyperlink{compile_8h_ac90570dbce495f89534c76073a2c1831}{my\-\_\-compil} (char $\ast$$\ast$lexed\-\_\-line, \hyperlink{op_8h_a51ce7549e6b9948b233d73c4c0d0fe02}{op\-\_\-t} $\ast$optodo, int fd\-\_\-binary)
+\item 
+int \hyperlink{compile_8h_ae9aa8d794f6c75aa3c6b131a15fcb7ca}{my\-\_\-parsefile} (int fd\-\_\-champ, int fd\-\_\-binary)
+\item 
+char $\ast$ \hyperlink{compile_8h_aa932b29ee343cca4dc71dc5922c8e899}{get\-\_\-quotes} (const char $\ast$str)
+\item 
+int \hyperlink{compile_8h_a07317474f4f23ef25856daa71b8534da}{header\-\_\-size\-\_\-prog} (int fd\-\_\-bin, int writed)
+\item 
+int \hyperlink{compile_8h_af66636c0f888f33983f6630fa1911bae}{late\-\_\-operation} (int fd\-\_\-bin, int writed, \hyperlink{list__lab__in_8h_a91fca2551b14cd3e3c189afabae27a0b}{t\-\_\-lateinfo} $\ast$info)
+\item 
+int \hyperlink{compile_8h_a1ad3c381180e678695983d1c91157f3c}{check\-\_\-if\-\_\-valid\-\_\-label} (char $\ast$str)
+\item 
+int \hyperlink{compile_8h_a68e75f6dc19bf1ad207e4ede39a78a91}{get\-\_\-label\-\_\-def} (\hyperlink{list__lab__in_8h_a91fca2551b14cd3e3c189afabae27a0b}{t\-\_\-lateinfo} $\ast$info, char $\ast$$\ast$lexed\-\_\-line, int fileoffset)
+\item 
+int \hyperlink{compile_8h_ace181743a8765de7c256cfd2ceb042a6}{get\-\_\-lateparam} (\hyperlink{list__lab__in_8h_a91fca2551b14cd3e3c189afabae27a0b}{t\-\_\-lateinfo} $\ast$info, char $\ast$$\ast$lexed\-\_\-line, int fileoffset, \hyperlink{op_8h_a51ce7549e6b9948b233d73c4c0d0fe02}{op\-\_\-t} $\ast$optodo)
+\item 
+char $\ast$ \hyperlink{compile_8h_ac304120f3bbaed766d710046bdfe0e2e}{put\-\_\-in\-\_\-char} (int nbr, int size)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{compile_8h_a8fe83ac76edc595f6b98cd4a4127aed5}{\index{compile.\-h@{compile.\-h}!E\-R\-R\-O\-R@{E\-R\-R\-O\-R}}
+\index{E\-R\-R\-O\-R@{E\-R\-R\-O\-R}!compile.h@{compile.\-h}}
+\subsubsection[{E\-R\-R\-O\-R}]{\setlength{\rightskip}{0pt plus 5cm}\#define E\-R\-R\-O\-R~\char`\"{}\textbackslash{}33\mbox{[}31;1m\-Error \-:\textbackslash{}33\mbox{[}0m\char`\"{}}}\label{compile_8h_a8fe83ac76edc595f6b98cd4a4127aed5}
+
+
+Definition at line 18 of file compile.\-h.
+
+\hypertarget{compile_8h_a49999be01380f41cc0d0f1f1406fb277}{\index{compile.\-h@{compile.\-h}!H\-E\-A\-D\-E\-R\-\_\-\-S\-I\-Z\-E@{H\-E\-A\-D\-E\-R\-\_\-\-S\-I\-Z\-E}}
+\index{H\-E\-A\-D\-E\-R\-\_\-\-S\-I\-Z\-E@{H\-E\-A\-D\-E\-R\-\_\-\-S\-I\-Z\-E}!compile.h@{compile.\-h}}
+\subsubsection[{H\-E\-A\-D\-E\-R\-\_\-\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define H\-E\-A\-D\-E\-R\-\_\-\-S\-I\-Z\-E~(8 + {\bf P\-R\-O\-G\-\_\-\-N\-A\-M\-E\-\_\-\-L\-E\-N\-G\-T\-H} + {\bf C\-O\-M\-M\-E\-N\-T\-\_\-\-L\-E\-N\-G\-T\-H})}}\label{compile_8h_a49999be01380f41cc0d0f1f1406fb277}
+
+
+Definition at line 16 of file compile.\-h.
+
+\hypertarget{compile_8h_a1ad73526ce07d2f3564dfd83c982ca3f}{\index{compile.\-h@{compile.\-h}!N\-O\-T\-E@{N\-O\-T\-E}}
+\index{N\-O\-T\-E@{N\-O\-T\-E}!compile.h@{compile.\-h}}
+\subsubsection[{N\-O\-T\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-O\-T\-E~\char`\"{}\textbackslash{}33\mbox{[}32;1m\-Note \-:\textbackslash{}33\mbox{[}0m\char`\"{}}}\label{compile_8h_a1ad73526ce07d2f3564dfd83c982ca3f}
+
+
+Definition at line 19 of file compile.\-h.
+
+\hypertarget{compile_8h_a5cb439d9f933fde4cf23caa370c030e7}{\index{compile.\-h@{compile.\-h}!W\-A\-R\-N\-I\-N\-G@{W\-A\-R\-N\-I\-N\-G}}
+\index{W\-A\-R\-N\-I\-N\-G@{W\-A\-R\-N\-I\-N\-G}!compile.h@{compile.\-h}}
+\subsubsection[{W\-A\-R\-N\-I\-N\-G}]{\setlength{\rightskip}{0pt plus 5cm}\#define W\-A\-R\-N\-I\-N\-G~\char`\"{}\textbackslash{}33\mbox{[}33;1m\-Warning \-:\textbackslash{}33\mbox{[}0m\char`\"{}}}\label{compile_8h_a5cb439d9f933fde4cf23caa370c030e7}
+
+
+Definition at line 17 of file compile.\-h.
+
+
+
+\subsection{Typedef Documentation}
+\hypertarget{compile_8h_a55d668897c420e8b402208277c8fc669}{\index{compile.\-h@{compile.\-h}!t\-\_\-pos\-\_\-info@{t\-\_\-pos\-\_\-info}}
+\index{t\-\_\-pos\-\_\-info@{t\-\_\-pos\-\_\-info}!compile.h@{compile.\-h}}
+\subsubsection[{t\-\_\-pos\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf s\-\_\-pos\-\_\-info}		 {\bf t\-\_\-pos\-\_\-info}}}\label{compile_8h_a55d668897c420e8b402208277c8fc669}
+
+
+\subsection{Function Documentation}
+\hypertarget{compile_8h_a1ad3c381180e678695983d1c91157f3c}{\index{compile.\-h@{compile.\-h}!check\-\_\-if\-\_\-valid\-\_\-label@{check\-\_\-if\-\_\-valid\-\_\-label}}
+\index{check\-\_\-if\-\_\-valid\-\_\-label@{check\-\_\-if\-\_\-valid\-\_\-label}!compile.h@{compile.\-h}}
+\subsubsection[{check\-\_\-if\-\_\-valid\-\_\-label}]{\setlength{\rightskip}{0pt plus 5cm}int check\-\_\-if\-\_\-valid\-\_\-label (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{str}
+\end{DoxyParamCaption}
+)}}\label{compile_8h_a1ad3c381180e678695983d1c91157f3c}
+
+
+Definition at line 74 of file check\-\_\-param.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{d4/d03/compile_8h_a1ad3c381180e678695983d1c91157f3c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{d4/d03/compile_8h_a1ad3c381180e678695983d1c91157f3c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compile_8h_a68e75f6dc19bf1ad207e4ede39a78a91}{\index{compile.\-h@{compile.\-h}!get\-\_\-label\-\_\-def@{get\-\_\-label\-\_\-def}}
+\index{get\-\_\-label\-\_\-def@{get\-\_\-label\-\_\-def}!compile.h@{compile.\-h}}
+\subsubsection[{get\-\_\-label\-\_\-def}]{\setlength{\rightskip}{0pt plus 5cm}int get\-\_\-label\-\_\-def (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-lateinfo} $\ast$}]{info, }
+\item[{char $\ast$$\ast$}]{lexed\-\_\-line, }
+\item[{int}]{fileoffset}
+\end{DoxyParamCaption}
+)}}\label{compile_8h_a68e75f6dc19bf1ad207e4ede39a78a91}
+
+
+Definition at line 84 of file label.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{d4/d03/compile_8h_a68e75f6dc19bf1ad207e4ede39a78a91_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{d4/d03/compile_8h_a68e75f6dc19bf1ad207e4ede39a78a91_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compile_8h_ace181743a8765de7c256cfd2ceb042a6}{\index{compile.\-h@{compile.\-h}!get\-\_\-lateparam@{get\-\_\-lateparam}}
+\index{get\-\_\-lateparam@{get\-\_\-lateparam}!compile.h@{compile.\-h}}
+\subsubsection[{get\-\_\-lateparam}]{\setlength{\rightskip}{0pt plus 5cm}int get\-\_\-lateparam (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-lateinfo} $\ast$}]{info, }
+\item[{char $\ast$$\ast$}]{lexed\-\_\-line, }
+\item[{int}]{fileoffset, }
+\item[{{\bf op\-\_\-t} $\ast$}]{optodo}
+\end{DoxyParamCaption}
+)}}\label{compile_8h_ace181743a8765de7c256cfd2ceb042a6}
+
+
+Definition at line 143 of file label.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{d4/d03/compile_8h_ace181743a8765de7c256cfd2ceb042a6_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{d4/d03/compile_8h_ace181743a8765de7c256cfd2ceb042a6_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compile_8h_aa932b29ee343cca4dc71dc5922c8e899}{\index{compile.\-h@{compile.\-h}!get\-\_\-quotes@{get\-\_\-quotes}}
+\index{get\-\_\-quotes@{get\-\_\-quotes}!compile.h@{compile.\-h}}
+\subsubsection[{get\-\_\-quotes}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ get\-\_\-quotes (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{str}
+\end{DoxyParamCaption}
+)}}\label{compile_8h_aa932b29ee343cca4dc71dc5922c8e899}
+\hypertarget{compile_8h_a07317474f4f23ef25856daa71b8534da}{\index{compile.\-h@{compile.\-h}!header\-\_\-size\-\_\-prog@{header\-\_\-size\-\_\-prog}}
+\index{header\-\_\-size\-\_\-prog@{header\-\_\-size\-\_\-prog}!compile.h@{compile.\-h}}
+\subsubsection[{header\-\_\-size\-\_\-prog}]{\setlength{\rightskip}{0pt plus 5cm}int header\-\_\-size\-\_\-prog (
+\begin{DoxyParamCaption}
+\item[{int}]{fd\-\_\-bin, }
+\item[{int}]{writed}
+\end{DoxyParamCaption}
+)}}\label{compile_8h_a07317474f4f23ef25856daa71b8534da}
+
+
+Definition at line 31 of file label.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{d4/d03/compile_8h_a07317474f4f23ef25856daa71b8534da_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{d4/d03/compile_8h_a07317474f4f23ef25856daa71b8534da_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compile_8h_af66636c0f888f33983f6630fa1911bae}{\index{compile.\-h@{compile.\-h}!late\-\_\-operation@{late\-\_\-operation}}
+\index{late\-\_\-operation@{late\-\_\-operation}!compile.h@{compile.\-h}}
+\subsubsection[{late\-\_\-operation}]{\setlength{\rightskip}{0pt plus 5cm}int late\-\_\-operation (
+\begin{DoxyParamCaption}
+\item[{int}]{fd\-\_\-bin, }
+\item[{int}]{writed, }
+\item[{{\bf t\-\_\-lateinfo} $\ast$}]{info}
+\end{DoxyParamCaption}
+)}}\label{compile_8h_af66636c0f888f33983f6630fa1911bae}
+
+
+Definition at line 50 of file label.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d03/compile_8h_af66636c0f888f33983f6630fa1911bae_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{d4/d03/compile_8h_af66636c0f888f33983f6630fa1911bae_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compile_8h_ac90570dbce495f89534c76073a2c1831}{\index{compile.\-h@{compile.\-h}!my\-\_\-compil@{my\-\_\-compil}}
+\index{my\-\_\-compil@{my\-\_\-compil}!compile.h@{compile.\-h}}
+\subsubsection[{my\-\_\-compil}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-compil (
+\begin{DoxyParamCaption}
+\item[{char $\ast$$\ast$}]{lexed\-\_\-line, }
+\item[{{\bf op\-\_\-t} $\ast$}]{optodo, }
+\item[{int}]{fd\-\_\-binary}
+\end{DoxyParamCaption}
+)}}\label{compile_8h_ac90570dbce495f89534c76073a2c1831}
+
+
+Definition at line 33 of file compil.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d03/compile_8h_ac90570dbce495f89534c76073a2c1831_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{d4/d03/compile_8h_ac90570dbce495f89534c76073a2c1831_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compile_8h_ab8d8242eec2c52dd2b194c3df9db1bb9}{\index{compile.\-h@{compile.\-h}!my\-\_\-fuse@{my\-\_\-fuse}}
+\index{my\-\_\-fuse@{my\-\_\-fuse}!compile.h@{compile.\-h}}
+\subsubsection[{my\-\_\-fuse}]{\setlength{\rightskip}{0pt plus 5cm}{\bf t\-\_\-pos\-\_\-info} my\-\_\-fuse (
+\begin{DoxyParamCaption}
+\item[{int}]{pos, }
+\item[{int}]{instruc}
+\end{DoxyParamCaption}
+)}}\label{compile_8h_ab8d8242eec2c52dd2b194c3df9db1bb9}
+
+
+Definition at line 114 of file process.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=252pt]{d4/d03/compile_8h_ab8d8242eec2c52dd2b194c3df9db1bb9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compile_8h_ae9aa8d794f6c75aa3c6b131a15fcb7ca}{\index{compile.\-h@{compile.\-h}!my\-\_\-parsefile@{my\-\_\-parsefile}}
+\index{my\-\_\-parsefile@{my\-\_\-parsefile}!compile.h@{compile.\-h}}
+\subsubsection[{my\-\_\-parsefile}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-parsefile (
+\begin{DoxyParamCaption}
+\item[{int}]{fd\-\_\-champ, }
+\item[{int}]{fd\-\_\-binary}
+\end{DoxyParamCaption}
+)}}\label{compile_8h_ae9aa8d794f6c75aa3c6b131a15fcb7ca}
+
+
+Definition at line 113 of file compil.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d4/d03/compile_8h_ae9aa8d794f6c75aa3c6b131a15fcb7ca_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{d4/d03/compile_8h_ae9aa8d794f6c75aa3c6b131a15fcb7ca_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compile_8h_ac304120f3bbaed766d710046bdfe0e2e}{\index{compile.\-h@{compile.\-h}!put\-\_\-in\-\_\-char@{put\-\_\-in\-\_\-char}}
+\index{put\-\_\-in\-\_\-char@{put\-\_\-in\-\_\-char}!compile.h@{compile.\-h}}
+\subsubsection[{put\-\_\-in\-\_\-char}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ put\-\_\-in\-\_\-char (
+\begin{DoxyParamCaption}
+\item[{int}]{nbr, }
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)}}\label{compile_8h_ac304120f3bbaed766d710046bdfe0e2e}

@@ -1,0 +1,152 @@
+\hypertarget{compil_8c}{\section{asm/srcs/compil.c File Reference}
+\label{compil_8c}\index{asm/srcs/compil.\-c@{asm/srcs/compil.\-c}}
+}
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}stdlib.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}list\-\_\-lab\-\_\-in.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}process.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}get\-\_\-next\-\_\-line.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-fprintf.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}op.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}string.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}my\-\_\-malloc.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}check.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}write\-\_\-argvs.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}lexer.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}compile.\-h\char`\"{}}\\*
+Include dependency graph for compil.\-c\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d3/dbb/compil_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{compil_8c_ac90570dbce495f89534c76073a2c1831}{my\-\_\-compil} (char $\ast$$\ast$lexed\-\_\-line, \hyperlink{op_8h_a51ce7549e6b9948b233d73c4c0d0fe02}{op\-\_\-t} $\ast$optodo, int fd\-\_\-binary)
+\item 
+void \hyperlink{compil_8c_a4131ae481061ef0ee9686787e38e982d}{my\-\_\-init\-\_\-info} (\hyperlink{list__lab__in_8h_a91fca2551b14cd3e3c189afabae27a0b}{t\-\_\-lateinfo} $\ast$info)
+\item 
+char $\ast$$\ast$ \hyperlink{compil_8c_a81c29d4b2a8c6c27669b08812ab4e1a7}{my\-\_\-epur} (char $\ast$$\ast$tab)
+\item 
+int \hyperlink{compil_8c_ae9aa8d794f6c75aa3c6b131a15fcb7ca}{my\-\_\-parsefile} (int fd\-\_\-champ, int fd\-\_\-binary)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{compil_8c_ac90570dbce495f89534c76073a2c1831}{\index{compil.\-c@{compil.\-c}!my\-\_\-compil@{my\-\_\-compil}}
+\index{my\-\_\-compil@{my\-\_\-compil}!compil.c@{compil.\-c}}
+\subsubsection[{my\-\_\-compil}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-compil (
+\begin{DoxyParamCaption}
+\item[{char $\ast$$\ast$}]{lexed\-\_\-line, }
+\item[{{\bf op\-\_\-t} $\ast$}]{optodo, }
+\item[{int}]{fd\-\_\-binary}
+\end{DoxyParamCaption}
+)}}\label{compil_8c_ac90570dbce495f89534c76073a2c1831}
+
+
+Definition at line 33 of file compil.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d21/compil_8c_ac90570dbce495f89534c76073a2c1831_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{d1/d21/compil_8c_ac90570dbce495f89534c76073a2c1831_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compil_8c_a81c29d4b2a8c6c27669b08812ab4e1a7}{\index{compil.\-c@{compil.\-c}!my\-\_\-epur@{my\-\_\-epur}}
+\index{my\-\_\-epur@{my\-\_\-epur}!compil.c@{compil.\-c}}
+\subsubsection[{my\-\_\-epur}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$$\ast$ my\-\_\-epur (
+\begin{DoxyParamCaption}
+\item[{char $\ast$$\ast$}]{tab}
+\end{DoxyParamCaption}
+)}}\label{compil_8c_a81c29d4b2a8c6c27669b08812ab4e1a7}
+
+
+Definition at line 74 of file compil.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{d1/d21/compil_8c_a81c29d4b2a8c6c27669b08812ab4e1a7_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compil_8c_a4131ae481061ef0ee9686787e38e982d}{\index{compil.\-c@{compil.\-c}!my\-\_\-init\-\_\-info@{my\-\_\-init\-\_\-info}}
+\index{my\-\_\-init\-\_\-info@{my\-\_\-init\-\_\-info}!compil.c@{compil.\-c}}
+\subsubsection[{my\-\_\-init\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}void my\-\_\-init\-\_\-info (
+\begin{DoxyParamCaption}
+\item[{{\bf t\-\_\-lateinfo} $\ast$}]{info}
+\end{DoxyParamCaption}
+)}}\label{compil_8c_a4131ae481061ef0ee9686787e38e982d}
+
+
+Definition at line 61 of file compil.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{d1/d21/compil_8c_a4131ae481061ef0ee9686787e38e982d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{compil_8c_ae9aa8d794f6c75aa3c6b131a15fcb7ca}{\index{compil.\-c@{compil.\-c}!my\-\_\-parsefile@{my\-\_\-parsefile}}
+\index{my\-\_\-parsefile@{my\-\_\-parsefile}!compil.c@{compil.\-c}}
+\subsubsection[{my\-\_\-parsefile}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-parsefile (
+\begin{DoxyParamCaption}
+\item[{int}]{fd\-\_\-champ, }
+\item[{int}]{fd\-\_\-binary}
+\end{DoxyParamCaption}
+)}}\label{compil_8c_ae9aa8d794f6c75aa3c6b131a15fcb7ca}
+
+
+Definition at line 113 of file compil.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d21/compil_8c_ae9aa8d794f6c75aa3c6b131a15fcb7ca_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=256pt]{d1/d21/compil_8c_ae9aa8d794f6c75aa3c6b131a15fcb7ca_icgraph}
+\end{center}
+\end{figure}
+
+

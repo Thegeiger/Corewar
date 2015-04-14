@@ -1,0 +1,146 @@
+\hypertarget{my__fprintf_8c}{\section{lib/srcs/my\-\_\-fprintf.c File Reference}
+\label{my__fprintf_8c}\index{lib/srcs/my\-\_\-fprintf.\-c@{lib/srcs/my\-\_\-fprintf.\-c}}
+}
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$stdarg.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}string.\-h\char`\"{}}\\*
+Include dependency graph for my\-\_\-fprintf.\-c\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{dc/dfd/my__fprintf_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{my__fprintf_8c_af69579d6c426967eb5ac1743be73f677}{my\-\_\-fputnbr} (const int fd, int nbr)
+\item 
+static void \hyperlink{my__fprintf_8c_a302dc6065aca0813329212ade90f293e}{my\-\_\-fputhex} (const int fd, const unsigned int nbr)
+\item 
+static void \hyperlink{my__fprintf_8c_a13237c800130a19eec77ae18d3f53891}{my\-\_\-flag} (const int fd, const char flag, va\-\_\-list $\ast$args)
+\item 
+int \hyperlink{my__fprintf_8c_a35650f26af1014e38f5879509b4c7b64}{my\-\_\-fprintf} (const int fd, const char $\ast$format,...)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{my__fprintf_8c_a13237c800130a19eec77ae18d3f53891}{\index{my\-\_\-fprintf.\-c@{my\-\_\-fprintf.\-c}!my\-\_\-flag@{my\-\_\-flag}}
+\index{my\-\_\-flag@{my\-\_\-flag}!my_fprintf.c@{my\-\_\-fprintf.\-c}}
+\subsubsection[{my\-\_\-flag}]{\setlength{\rightskip}{0pt plus 5cm}static void my\-\_\-flag (
+\begin{DoxyParamCaption}
+\item[{const int}]{fd, }
+\item[{const char}]{flag, }
+\item[{va\-\_\-list $\ast$}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{my__fprintf_8c_a13237c800130a19eec77ae18d3f53891}
+
+
+Definition at line 43 of file my\-\_\-fprintf.\-c.
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{d6/da3/my__fprintf_8c_a13237c800130a19eec77ae18d3f53891_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{d6/da3/my__fprintf_8c_a13237c800130a19eec77ae18d3f53891_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{my__fprintf_8c_a35650f26af1014e38f5879509b4c7b64}{\index{my\-\_\-fprintf.\-c@{my\-\_\-fprintf.\-c}!my\-\_\-fprintf@{my\-\_\-fprintf}}
+\index{my\-\_\-fprintf@{my\-\_\-fprintf}!my_fprintf.c@{my\-\_\-fprintf.\-c}}
+\subsubsection[{my\-\_\-fprintf}]{\setlength{\rightskip}{0pt plus 5cm}int my\-\_\-fprintf (
+\begin{DoxyParamCaption}
+\item[{const int}]{fd, }
+\item[{const char $\ast$}]{format, }
+\item[{}]{...}
+\end{DoxyParamCaption}
+)}}\label{my__fprintf_8c_a35650f26af1014e38f5879509b4c7b64}
+
+
+Definition at line 63 of file my\-\_\-fprintf.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{d6/da3/my__fprintf_8c_a35650f26af1014e38f5879509b4c7b64_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d6/da3/my__fprintf_8c_a35650f26af1014e38f5879509b4c7b64_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{my__fprintf_8c_a302dc6065aca0813329212ade90f293e}{\index{my\-\_\-fprintf.\-c@{my\-\_\-fprintf.\-c}!my\-\_\-fputhex@{my\-\_\-fputhex}}
+\index{my\-\_\-fputhex@{my\-\_\-fputhex}!my_fprintf.c@{my\-\_\-fprintf.\-c}}
+\subsubsection[{my\-\_\-fputhex}]{\setlength{\rightskip}{0pt plus 5cm}static void my\-\_\-fputhex (
+\begin{DoxyParamCaption}
+\item[{const int}]{fd, }
+\item[{const unsigned int}]{nbr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{my__fprintf_8c_a302dc6065aca0813329212ade90f293e}
+
+
+Definition at line 34 of file my\-\_\-fprintf.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=236pt]{d6/da3/my__fprintf_8c_a302dc6065aca0813329212ade90f293e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{my__fprintf_8c_af69579d6c426967eb5ac1743be73f677}{\index{my\-\_\-fprintf.\-c@{my\-\_\-fprintf.\-c}!my\-\_\-fputnbr@{my\-\_\-fputnbr}}
+\index{my\-\_\-fputnbr@{my\-\_\-fputnbr}!my_fprintf.c@{my\-\_\-fprintf.\-c}}
+\subsubsection[{my\-\_\-fputnbr}]{\setlength{\rightskip}{0pt plus 5cm}static void my\-\_\-fputnbr (
+\begin{DoxyParamCaption}
+\item[{const int}]{fd, }
+\item[{int}]{nbr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{my__fprintf_8c_af69579d6c426967eb5ac1743be73f677}
+
+
+Definition at line 15 of file my\-\_\-fprintf.\-c.
+
+
+
+Here is the caller graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{d6/da3/my__fprintf_8c_af69579d6c426967eb5ac1743be73f677_icgraph}
+\end{center}
+\end{figure}
+
+

@@ -1,0 +1,58 @@
+.TH "lib/srcs/my_malloc.c" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+lib/srcs/my_malloc.c \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <unistd\&.h>\fP
+.br
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include 'my_malloc\&.h'\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "static int \fBsave_malloced\fP (void *data)"
+.br
+.ti -1c
+.RI "void * \fBmy_malloc\fP (const unsigned int size)"
+.br
+.ti -1c
+.RI "void \fBmy_free\fP ()"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "static \fBt_glist\fP * \fBg_save\fP = NULL"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void my_free ()"
+
+.PP
+Definition at line 38 of file my_malloc\&.c\&.
+.SS "void* my_malloc (const unsigned intsize)"
+
+.PP
+Definition at line 24 of file my_malloc\&.c\&.
+.SS "static int save_malloced (void *data)\fC [static]\fP"
+
+.PP
+Definition at line 17 of file my_malloc\&.c\&.
+.SH "Variable Documentation"
+.PP 
+.SS "\fBt_glist\fP* g_save = NULL\fC [static]\fP"
+
+.PP
+Definition at line 15 of file my_malloc\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

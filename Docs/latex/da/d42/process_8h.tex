@@ -1,0 +1,134 @@
+\hypertarget{process_8h}{\section{asm/includes/process.h File Reference}
+\label{process_8h}\index{asm/includes/process.\-h@{asm/includes/process.\-h}}
+}
+{\ttfamily \#include \char`\"{}list\-\_\-lab\-\_\-in.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}op.\-h\char`\"{}}\\*
+Include dependency graph for process.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{d5/dab/process_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d1/d54/process_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{process_8h_aa60c0c2eb4c97682a8dd4be02b96072b}{process\-\_\-line} (char $\ast$$\ast$lexed\-\_\-line, int fd\-\_\-binary, int $\ast$fileoffset, \hyperlink{list__lab__in_8h_a91fca2551b14cd3e3c189afabae27a0b}{t\-\_\-lateinfo} $\ast$info)
+\item 
+int \hyperlink{process_8h_a7f171e754b7d166cad2b4cfe4dc9c7af}{proces\-\_\-file} (char $\ast$str)
+\item 
+void \hyperlink{process_8h_aec1bc88ba24446c583bfb77a27e38847}{dir\-\_\-to\-\_\-ind} (char $\ast$$\ast$lines, \hyperlink{op_8h_a51ce7549e6b9948b233d73c4c0d0fe02}{op\-\_\-t} $\ast$op)
+\item 
+int \hyperlink{process_8h_a22ea18f0981a9a88dcf20d45e1202143}{dirsize} (\hyperlink{op_8h_a51ce7549e6b9948b233d73c4c0d0fe02}{op\-\_\-t} $\ast$op, int i)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{process_8h_aec1bc88ba24446c583bfb77a27e38847}{\index{process.\-h@{process.\-h}!dir\-\_\-to\-\_\-ind@{dir\-\_\-to\-\_\-ind}}
+\index{dir\-\_\-to\-\_\-ind@{dir\-\_\-to\-\_\-ind}!process.h@{process.\-h}}
+\subsubsection[{dir\-\_\-to\-\_\-ind}]{\setlength{\rightskip}{0pt plus 5cm}void dir\-\_\-to\-\_\-ind (
+\begin{DoxyParamCaption}
+\item[{char $\ast$$\ast$}]{lines, }
+\item[{{\bf op\-\_\-t} $\ast$}]{op}
+\end{DoxyParamCaption}
+)}}\label{process_8h_aec1bc88ba24446c583bfb77a27e38847}
+\hypertarget{process_8h_a22ea18f0981a9a88dcf20d45e1202143}{\index{process.\-h@{process.\-h}!dirsize@{dirsize}}
+\index{dirsize@{dirsize}!process.h@{process.\-h}}
+\subsubsection[{dirsize}]{\setlength{\rightskip}{0pt plus 5cm}int dirsize (
+\begin{DoxyParamCaption}
+\item[{{\bf op\-\_\-t} $\ast$}]{op, }
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}\label{process_8h_a22ea18f0981a9a88dcf20d45e1202143}
+
+
+Definition at line 100 of file process.\-c.
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{da/d42/process_8h_a22ea18f0981a9a88dcf20d45e1202143_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{process_8h_a7f171e754b7d166cad2b4cfe4dc9c7af}{\index{process.\-h@{process.\-h}!proces\-\_\-file@{proces\-\_\-file}}
+\index{proces\-\_\-file@{proces\-\_\-file}!process.h@{process.\-h}}
+\subsubsection[{proces\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}int proces\-\_\-file (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{str}
+\end{DoxyParamCaption}
+)}}\label{process_8h_a7f171e754b7d166cad2b4cfe4dc9c7af}
+
+
+Definition at line 67 of file process.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d42/process_8h_a7f171e754b7d166cad2b4cfe4dc9c7af_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=220pt]{da/d42/process_8h_a7f171e754b7d166cad2b4cfe4dc9c7af_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{process_8h_aa60c0c2eb4c97682a8dd4be02b96072b}{\index{process.\-h@{process.\-h}!process\-\_\-line@{process\-\_\-line}}
+\index{process\-\_\-line@{process\-\_\-line}!process.h@{process.\-h}}
+\subsubsection[{process\-\_\-line}]{\setlength{\rightskip}{0pt plus 5cm}int process\-\_\-line (
+\begin{DoxyParamCaption}
+\item[{char $\ast$$\ast$}]{lexed\-\_\-line, }
+\item[{int}]{fd\-\_\-binary, }
+\item[{int $\ast$}]{fileoffset, }
+\item[{{\bf t\-\_\-lateinfo} $\ast$}]{info}
+\end{DoxyParamCaption}
+)}}\label{process_8h_aa60c0c2eb4c97682a8dd4be02b96072b}
+
+
+Definition at line 30 of file process.\-c.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d42/process_8h_aa60c0c2eb4c97682a8dd4be02b96072b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{da/d42/process_8h_aa60c0c2eb4c97682a8dd4be02b96072b_icgraph}
+\end{center}
+\end{figure}
+
+

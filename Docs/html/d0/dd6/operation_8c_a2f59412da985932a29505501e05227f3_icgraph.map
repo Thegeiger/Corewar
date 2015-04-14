@@ -1,0 +1,5 @@
+<map id="get_nb" name="get_nb">
+<area shape="rect" id="node3" href="$d0/dd6/operation_8c.html#a858ed6428dc88604803b93dabf53a183" title="my_and" alt="" coords="118,5,189,32"/>
+<area shape="rect" id="node5" href="$d0/dd6/operation_8c.html#a16208ed55d81c38e6dea6ac9a886574e" title="my_or" alt="" coords="124,56,183,83"/>
+<area shape="rect" id="node7" href="$d0/dd6/operation_8c.html#acb4a6fa30f8c187dd95103c33d7a7b32" title="my_xor" alt="" coords="120,107,187,133"/>
+</map>

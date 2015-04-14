@@ -1,0 +1,79 @@
+.TH "asm/includes/write_argvs.h" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+asm/includes/write_argvs.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBTRUE_REG_SIZE\fP   1"
+.br
+.ti -1c
+.RI "#define \fBTRUE_DIR_SIZE\fP   2"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBmy_write_arg\fP (int *writed, int fd_binary, char *str, int cast)"
+.br
+.ti -1c
+.RI "int \fBmy_write_args\fP (char **lexed_line, \fBop_t\fP *optodo, int fd_binary)"
+.br
+.ti -1c
+.RI "int \fBwrite_header\fP (int fd_champ, int fd_bin)"
+.br
+.ti -1c
+.RI "int \fBget_name_comment\fP (char *line, \fBheader_t\fP *header, char *isdonename, char *isdonecom)"
+.br
+.ti -1c
+.RI "int \fBput_in_be\fP (char *arg, int size)"
+.br
+.ti -1c
+.RI "int \fBwrite_header_ext\fP (int fd_bin, int fd_champ, \fBheader_t\fP *header)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define TRUE_DIR_SIZE   2"
+
+.PP
+Definition at line 15 of file write_argvs\&.h\&.
+.SS "#define TRUE_REG_SIZE   1"
+
+.PP
+Definition at line 14 of file write_argvs\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "int get_name_comment (char *line, \fBheader_t\fP *header, char *isdonename, char *isdonecom)"
+
+.PP
+Definition at line 30 of file write_header\&.c\&.
+.SS "int my_write_arg (int *writed, intfd_binary, char *str, intcast)"
+
+.PP
+Definition at line 60 of file write_argvs\&.c\&.
+.SS "int my_write_args (char **lexed_line, \fBop_t\fP *optodo, intfd_binary)"
+
+.PP
+Definition at line 118 of file write_argvs\&.c\&.
+.SS "int put_in_be (char *arg, intsize)"
+
+.PP
+Definition at line 62 of file write_header\&.c\&.
+.SS "int write_header (intfd_champ, intfd_bin)"
+
+.PP
+Definition at line 118 of file write_header\&.c\&.
+.SS "int write_header_ext (intfd_bin, intfd_champ, \fBheader_t\fP *header)"
+
+.PP
+Definition at line 92 of file write_header\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.

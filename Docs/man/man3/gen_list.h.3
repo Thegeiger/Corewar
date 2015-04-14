@@ -1,0 +1,63 @@
+.TH "lib/includes/gen_list.h" 3 "Sun Apr 12 2015" "Version 1.0" "Corewar" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+lib/includes/gen_list.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Data Structures"
+
+.in +1c
+.ti -1c
+.RI "struct \fBs_list\fP"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef struct \fBs_list\fP \fBt_list\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBt_list\fP * \fBnew_list\fP (\fBt_list\fP *old, int numa, int numb, char *str)"
+.br
+.ti -1c
+.RI "\fBt_list\fP * \fBadd_list_start\fP (\fBt_list\fP *s, void *data)"
+.br
+.ti -1c
+.RI "void \fBfree_list\fP (\fBt_list\fP *s)"
+.br
+.ti -1c
+.RI "int \fBlist_finder\fP (\fBt_list\fP *s, char *label)"
+.br
+.in -1c
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef struct \fBs_list\fP \fBt_list\fP"
+
+.PP
+Definition at line 14 of file gen_list\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "\fBt_list\fP* add_list_start (\fBt_list\fP *s, void *data)"
+
+.SS "void free_list (\fBt_list\fP *s)"
+
+.PP
+Definition at line 47 of file gen_list\&.c\&.
+.SS "int list_finder (\fBt_list\fP *s, char *label)"
+
+.PP
+Definition at line 91 of file gen_list\&.c\&.
+.SS "\fBt_list\fP* new_list (\fBt_list\fP *old, intnuma, intnumb, char *str)"
+
+.PP
+Definition at line 22 of file gen_list\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Corewar from the source code\&.
